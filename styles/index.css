@@ -1,5 +1,21 @@
 body{
     border: 1px solid black;
-    width: 500px;
-    height: 500px;
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    border: 1px solid red;
+    padding: 0;
+    margin: 156px auto;
+    width: 600px;
+    height: 600px;
+}
+
+.info{
+    display: flex;
+}
+
+.contact-telegram, .contact-telephone, .contact-gmail{
+    display: flex;
 }
