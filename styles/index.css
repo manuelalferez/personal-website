@@ -7,13 +7,13 @@ body{
 
 .card{
     background-color: #B7AE92;
-    border: 1px solid #7DFEBC;
+/*     border: 1px solid #7DFEBC; */
     border-radius: 15px;
     padding: 0;
     margin: 156px auto;
     width: 600px;
     height: 600px;
-    box-shadow: 0 10px 20px -6px #777
+    box-shadow: 0 37px 20px 2px #777
 }
 
 .info{
@@ -53,4 +53,56 @@ body{
 
 .contact-telegram, .contact-telephone, .contact-gmail{
     display: flex;
+}
+
+.contact p{
+    margin-left: 20px;
+}
+
+.contact-telegram{
+    margin-top: 40px;
+}
+
+.social{
+    margin-top: 70px;
+    height: 79px;
+    padding: 20px;
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+    background-color: #6C6245;
+    
+}
+
+.social-list{
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-item-twitter{
+    background-image: url(../images/twitter.svg);
+    height: 50px;
+    width: 50px;
+}
+
+.social-item-github{
+    background-image: url(../images/github.svg);
+    height: 50px;
+    width: 50px;
+}
+
+.social-item-instagram{
+    background-image: url(../images/instagram.svg);
+    height: 50px;
+    width: 50px;
+}
+
+footer{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #6C6245;
 }
