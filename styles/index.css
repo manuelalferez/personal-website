@@ -1,66 +1,97 @@
 body {
     font-family: 'Space Mono', monospace;
     margin: 0;
+    background-image: url(../images/fondo.jpg);
 }
 
 .card {
-    height: 700px;
-    width: 700px;
+    height: 98vh;
     display: grid;
-    justify-content: end;
-    grid-template-columns: [start] 1fr [start-content] 1fr [content-1] 1fr [content-2] 1fr [content-3] 1fr [content-4] 1fr [content-5] 1fr [content-6] 1fr [end-content] 1fr [end];
-    grid-template-rows: [start] 15% [end-name] 15% [end-where] 40% [end-bio] 20% [end-social] 10% [end];
-    grid-template-areas: ". profile-picture profile-picture . name name name name ."
-                         ". profile-picture profile-picture . where-live where-live where-live where-live ."
-                         ". little-bio little-bio little-bio little-bio little-bio little-bio little-bio ."
-                         ". social-twitter . social-github . social-instagram . social-linkedin ."
-                         " footer footer footer footer footer footer footer footer footer";
+    gap: 5px;
+    margin: 0;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: [start] 30px [start-content] 91.43px [content-1] 91.43px [content-2] 91.43px [content-3] 91.43px [content-4] 91.43px [content-5] 91.43px [content-6] 91.43px [end-content] 30px [end];
+    grid-template-rows: [start] 91.43px [end-name] 91.43px [end-where] 355.71px [end-bio] 91.43px [end-social] 70px [end];
+    grid-template-areas: ". profile-picture profile-picture name name name name name ." ". profile-picture profile-picture where-live where-live where-live where-live where-live ." ". little-bio little-bio little-bio little-bio little-bio little-bio little-bio ." ". social-twitter . social-github . social-instagram . social-linkedin ." " footer footer footer footer footer footer footer footer footer";
 }
 
-.item{
-    border: 1px solid black;
+.item {
+/*     border: 1px solid black; */
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
 }
 
-.profile-picture{
+/*PROFILE-PICTURE*/
+.profile-picture {
     grid-area: profile-picture;
 }
-.name{
+
+.profile-picture img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+/*NAME*/
+.name {
     grid-area: name;
 }
-.where-live{
+
+.name p, .where-live p{
+    align-self: center;
+    justify-content: center;
+}
+
+/*WHERE-LIVE*/
+.where-live {
     grid-area: where-live;
 }
-.little-bio{
+
+/*LITTLE-BIO*/
+.little-bio {
     grid-area: little-bio;
 }
-.social-twitter{
+.little-bio h2{
+    text-align: center;
+}
+
+.little-bio-description{
+    padding: 10px;
+}
+
+.little-bio a{
+    text-decoration: none;  
+    color: black;
+}
+
+/*SOCIAL*/
+.social-twitter {
     grid-area: social-twitter;
 }
-.social-github{
+
+.social-github {
     grid-area: social-github;
 }
-.social-instagram{
+
+.social-instagram {
     grid-area: social-instagram;
 }
-.social-linkedin{
+
+.social-linkedin {
     grid-area: social-linkedin;
 }
-.footer{
+
+/*FOOTER*/
+.footer {
     grid-area: footer;
 }
 
+/*MEADIA QUERIES*/
+@media screen and (max-width: 1024px) {}
 
-@media screen and (max-width: 1024px) {
-}
+@media screen and (max-width: 768px) {}
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {}
 
-}
-
-@media screen and (max-width: 480px) {
-   
-}
-
-@media screen and (max-width: 320px) {
-   
-}
+@media screen and (max-width: 320px) {}
