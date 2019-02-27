@@ -1,250 +1,66 @@
 body {
-    font-family: 'IBM Plex Mono', monospace;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-image: url(../images/fondo.jpg);
-    background-repeat: no-repeat;
-    background-size: 210vh;
-    height: 98vh;
+    font-family: 'Space Mono', monospace;
+    margin: 0;
 }
 
 .card {
-    background-color: #B7AE92;
-    border-radius: 15px;
-    box-shadow: 0 37px 25px -22px #777;
-    width: 35%;
-    position: relative;
-    height: 68%;
+    height: 700px;
+    width: 700px;
+    display: grid;
+    justify-content: end;
+    grid-template-columns: [start] 1fr [start-content] 1fr [content-1] 1fr [content-2] 1fr [content-3] 1fr [content-4] 1fr [content-5] 1fr [content-6] 1fr [end-content] 1fr [end];
+    grid-template-rows: [start] 15% [end-name] 15% [end-where] 40% [end-bio] 20% [end-social] 10% [end];
+    grid-template-areas: ". profile-picture profile-picture . name name name name ."
+                         ". profile-picture profile-picture . where-live where-live where-live where-live ."
+                         ". little-bio little-bio little-bio little-bio little-bio little-bio little-bio ."
+                         ". social-twitter . social-github . social-instagram . social-linkedin ."
+                         " footer footer footer footer footer footer footer footer footer";
 }
 
-.info {
-    display: flex;
-    background-color: #FFFCF3;
-    overflow: hidden;
-    border-radius: inherit;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-    font-size: 1.3em;
-    height: 40%;
+.item{
+    border: 1px solid black;
 }
 
-.info-imageContainer {
-    width: 25%;
+.profile-picture{
+    grid-area: profile-picture;
+}
+.name{
+    grid-area: name;
+}
+.where-live{
+    grid-area: where-live;
+}
+.little-bio{
+    grid-area: little-bio;
+}
+.social-twitter{
+    grid-area: social-twitter;
+}
+.social-github{
+    grid-area: social-github;
+}
+.social-instagram{
+    grid-area: social-instagram;
+}
+.social-linkedin{
+    grid-area: social-linkedin;
+}
+.footer{
+    grid-area: footer;
 }
 
-.figure {
-    margin: .5em;
-}
-
-.info-imageContainer p {
-    font-size: .7em;
-}
-
-.info img {
-    border-radius: 10px;
-    box-shadow: 0 10px 20px -6px #777;
-    width: 100%;
-    height: width;
-    object-fit: cover;
-}
-
-.info-details .occupations {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-}
-
-.occupations-item {
-    background-color: #D9D3C1;
-    border: 2px solid #B7AE92;
-    border-radius: 10px;
-    padding: 0.4em;
-    height: 2em;
-    margin: 0.7em;
-    box-shadow: 0 12px 27px -10px #777;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    font-size: .6em;
-}
-
-.contact {
-    font-size: 16px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 45%;
-}
-
-.contact-telegram, .contact-telephone, .contact-gmail {
-    display: flex;
-    height: 4em;
-}
-
-.contact p {
-    margin-left: 20px;
-    font-size: 1.2em;
-}
-
-.social {
-    border-bottom-left-radius: inherit;
-    border-bottom-right-radius: inherit;
-    background-color: #6C6245;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 15%;
-}
-
-.social-list {
-    padding: 20px;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.social-item-twitter {
-    background-image: url(../images/twitter.svg);
-    height: 3em;
-    width: 3em;
-}
-
-.social-item-github {
-    background-image: url(../images/github.svg);
-    height: 3em;
-    width: 3em;
-}
-
-.social-item-instagram {
-    background-image: url(../images/instagram.svg);
-    height: 3em;
-    width: 3em;
-}
-
-.social-item-linkedin {
-    background-image: url(../images/linkedin.svg);
-    background-size: 100%;
-    height: 3em;
-    width: 3em;
-}
-
-footer {
-    font-family: 'Pacifico', cursive;
-    text-align: center;
-    position: absolute;
-    bottom: .5em;
-    background: rgba(72, 59, 21, .55);
-    width: 100vw;
-}
-
-footer p {
-    margin: .3em;
-    color: rgb(0, 0, 0);
-}
-
-a {
-    text-decoration: none;
-    color: #FFFCF3;
-}
 
 @media screen and (max-width: 1024px) {
-    body {
-        font-size: 12px;
-    }
-    .card {
-        width: 50%;
-    }
 }
 
 @media screen and (max-width: 768px) {
-    body {
-        font-size: 10px;
-    }
-    .card {
-        height: 53%;
-        width: 50%
-    }
-    .occupations {
-        margin: .5em;
-    }
-    .info-imageContainer {
-        margin: 1.2em;
-        font-size: 1em;
-    }
-    .info {
-        height: 40%;
-    }
-    .contact {
-        height: 40%;
-        font-size: 10px;
-    }
-    footer p {
-        color: white;
-    }
+
 }
 
 @media screen and (max-width: 480px) {
-    .social {
-        font-size: 10px;
-    }
-    .card {
-        height: 49%;
-        width: 65%;
-    }
-    .info {
-        height: 33%;
-        font-size: 10px;
-    }
-    .contact {
-        font-size: 7px;
-        height: 40%;
-        margin: 2em 0;
-    }
-    .contact p {
-        font-size: 1em;
-        margin-left: 0;
-    }
-    .contact img {
-        height: 2.5em;
-        width: 2.5em;
-    }
-    .social-list {
-        padding: 1em;
-    }
+   
 }
 
 @media screen and (max-width: 320px) {
-    .social {
-        font-size: 5px;
-    }
-    .info {
-        font-size: 8px;
-        height: 40%
-    }
-    .card {
-        height: 40%;
-        width: 70%;
-    }
-    .social {
-        height: 17%;
-    }
-    .social-list {
-        margin-top: 2em;
-    }
-    .contact p {
-        position: absolute;
-        left: 10em;
-    }
-}
-
-@media screen and (max-height: 568px) {
-    .card {
-        height: 55%;
-    }
-    .info {
-        height: 35%;
-    }
+   
 }
