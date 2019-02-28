@@ -2,14 +2,17 @@ body {
     font-family: 'Space Mono', monospace;
     display: grid;
     margin: 0;
-    background: white;
+   /*  background: white; */
+   background-image: url(../images/fondo.jpg);
     grid-template: 8vh auto / 5% 10% 70% 15%;
     grid-template-areas: "home page-tittle page-tittle page-tittle" ". . content .";
 }
 
 /*HOME*/
+
 .home {
     grid-area: home;
+
 }
 
 .home img {
@@ -25,6 +28,7 @@ body {
 }
 
 /*PAGE-TITTLE*/
+
 .page-tittle {
     grid-area: page-tittle;
     display: flex;
@@ -39,49 +43,45 @@ body {
 }
 
 /*HOME / PAGE-TITTLE*/
+
 .home, .page-tittle {
     display: fixed;
     background: #FFF7E4;
-   
 }
 
 /*CONTENT*/
+
 .content {
     margin-top: 10px;
     grid-area: content;
     display: grid;
     background: #FFF7E4;
     grid-template-columns: 90%;
-    grid-gap: 5%;
     justify-content: center;
     height: 100%;
 }
 
 /*POST*/
 
-
-
-
-.post{
+.post {
     background: white;
- /*    border: 8px solid #DBC68F; */
- border: 0.5px solid black;
+    border: 0.5px solid black;
     border-bottom: 2px solid black;
     border-right: 2px solid black;
-/*     border-radius: 5px; */
     grid-column-end: span 1;
     grid-row-end: span 1;
     display: grid;
     grid-template-rows: [start] 15% [start-post-content] 70% [start-post-date] 15% [end];
-    grid-template-areas: "post-tittle"
-                         "post-content"
-                         "post-date";
+    grid-template-areas: "post-tittle" "post-content" "post-date";
+    margin: 0 0 30px;
+    height: 400px;
 }
 
-.post-end{
+.post-end {
     margin-top: 20px;
 }
-.post-title{
+
+.post-title {
     grid-area: post-tittle;
     display: flex;
     justify-content: center;
@@ -89,28 +89,73 @@ body {
     margin: 0;
 }
 
-.post-title h2{
+.post-title h2 {
     margin: 0;
 }
 
-.post-content{
+.post-content {
     grid-area: post-content;
 }
 
-.post-date{
+.post-date {
     grid-area: post-date;
     display: grid;
     grid-template-rows: 25% 75%;
 }
 
-.divider, .post-date-text{
+.divider, .post-date-text {
     margin: 0;
 }
 
-.post-date-text{
+.post-date-text {
     margin-top: 5px;
 }
 
-.post-content, .post-date{
+.post-content, .post-date {
     padding: 10px 30px;
+}
+
+@media screen and (max-width: 1024px) {
+    .post {
+        font-size: 14px;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .post {
+        font-size: 14px;
+        height: 650px;
+    }
+    body {
+        grid-template: 8vh auto / 5% 10% 80% 5%;
+        grid-template-areas: ". home page-tittle ." ". content content .";
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .post {
+        font-size: 12px;
+    }
+    body {
+        grid-template: 8vh auto /10% 90%;
+        grid-template-areas: "home page-tittle" "content content";
+    }
+    .content{
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .post {
+        font-size: 11px;
+        height:700px;
+    }
+    body {
+        grid-template: 8vh auto /20% 80%;
+        grid-template-areas: "home page-tittle" "content content";
+    }
+    .post {
+        grid-template-rows: [start] 10% [start-post-content] 80% [start-post-date] 15% [end];
+    }
 }
