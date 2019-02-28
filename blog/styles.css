@@ -74,7 +74,13 @@ body {
     grid-template-rows: [start] 15% [start-post-content] 70% [start-post-date] 15% [end];
     grid-template-areas: "post-tittle" "post-content" "post-date";
     margin: 0 0 30px;
-    height: 400px;
+    height: 500px;
+}
+
+.post a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 
 .post-end {
