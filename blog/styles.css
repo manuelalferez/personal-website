@@ -3,14 +3,11 @@ body {
     display: grid;
     margin: 0;
     background: white;
-    grid-template: 8vh 92vh / 5% 10% 70% 15%;
+    grid-template: 8vh auto / 5% 10% 70% 15%;
     grid-template-areas: "home page-tittle page-tittle page-tittle" ". . content .";
 }
 
-.item {
-    /*     border: 1px solid black; */
-}
-
+/*HOME*/
 .home {
     grid-area: home;
 }
@@ -27,6 +24,7 @@ body {
     align-items: center;
 }
 
+/*PAGE-TITTLE*/
 .page-tittle {
     grid-area: page-tittle;
     display: flex;
@@ -40,12 +38,14 @@ body {
     text-decoration: none;
 }
 
+/*HOME / PAGE-TITTLE*/
 .home, .page-tittle {
     display: fixed;
     background: #FFF7E4;
    
 }
 
+/*CONTENT*/
 .content {
     margin-top: 10px;
     grid-area: content;
@@ -54,20 +54,63 @@ body {
     grid-template-columns: 90%;
     grid-gap: 5%;
     justify-content: center;
+    height: 100%;
+}
+
+/*POST*/
+
+
+
+
+.post{
+    background: white;
+ /*    border: 8px solid #DBC68F; */
+ border: 0.5px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+/*     border-radius: 5px; */
+    grid-column-end: span 1;
+    grid-row-end: span 1;
+    display: grid;
+    grid-template-rows: [start] 15% [start-post-content] 70% [start-post-date] 15% [end];
+    grid-template-areas: "post-tittle"
+                         "post-content"
+                         "post-date";
 }
 
 .post-end{
     margin-top: 20px;
 }
-
-.post{
-    background: white;
-    border: 8px solid #DBC68F;
-    border-radius: 5px;
-    grid-column-end: span 1;
-    grid-row-end: span 1;
+.post-title{
+    grid-area: post-tittle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
 }
 
-.content .item{
-    border: 1px solid black;
+.post-title h2{
+    margin: 0;
+}
+
+.post-content{
+    grid-area: post-content;
+}
+
+.post-date{
+    grid-area: post-date;
+    display: grid;
+    grid-template-rows: 25% 75%;
+}
+
+.divider, .post-date-text{
+    margin: 0;
+}
+
+.post-date-text{
+    margin-top: 5px;
+}
+
+.post-content, .post-date{
+    padding: 10px 30px;
 }
