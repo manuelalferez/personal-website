@@ -2,17 +2,14 @@ body {
     font-family: 'Space Mono', monospace;
     display: grid;
     margin: 0;
-   /*  background: white; */
-   background-image: url(../images/fondo.jpg);
     grid-template: 8vh auto / 5% 10% 70% 15%;
-    grid-template-areas: "home page-tittle page-tittle page-tittle" ". . content .";
+    grid-template-areas: "home . page-tittle ." ". . content .";
 }
 
 /*HOME*/
 
 .home {
-    grid-area: home;
-
+    grid-area: home;    
 }
 
 .home img {
@@ -46,7 +43,6 @@ body {
 
 .home, .page-tittle {
     display: fixed;
-    background: #FFF7E4;
 }
 
 /*CONTENT*/
@@ -55,7 +51,6 @@ body {
     margin-top: 10px;
     grid-area: content;
     display: grid;
-    background: #FFF7E4;
     grid-template-columns: 90%;
     justify-content: center;
     height: 100%;
@@ -65,9 +60,7 @@ body {
 
 .post {
     background: white;
-    border: 0.5px solid black;
-    border-bottom: 2px solid black;
-    border-right: 2px solid black;
+    border-bottom: 2px solid rgb(107, 106, 106);
     grid-column-end: span 1;
     grid-row-end: span 1;
     display: grid;
@@ -81,6 +74,12 @@ body {
     text-decoration: none;
     color: black;
     font-weight: bold;
+    background-image: url("../images/link-symbol.svg");
+    background-position-x: 100%;
+    background-position-y: 20%;
+    background-size: .6em;
+    background-repeat: no-repeat;
+    padding-right: 10px;
 }
 
 .post-end {
@@ -96,7 +95,8 @@ body {
 }
 
 .post-title h2 {
-    margin: 0;
+    margin: 0;  
+    font-size: 2.5em;
 }
 
 .post-content {
