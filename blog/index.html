@@ -21,13 +21,14 @@
     </script>
 </head>
 
-<body class="container">
+<body class="container" id="body">
     <div class="item home">
-        <a href="../index.html"><img src="../images/home-button.svg" alt=""></a>
+        <a href="../index.html"><img src="../images/home.svg" alt=""></a>
     </div>
     <div class="item page-tittle">
         <a href="../blog/index.html">Blog</a>
     </div>
+    <div class="dark-mode" id="dark-mode"></div>
     <div class="item content">
         <div class="post post-end">
             <div class="post-title">
@@ -79,6 +80,15 @@
         </div>
 
     </div>
+    <script>
+        const $darkMode= document.getElementById("dark-mode");
+        const $body= document.getElementById("body");
+
+        $darkMode.addEventListener("click", (event)=>{
+            $darkMode.classList.toggle("sun-mode");
+            $body.classList.toggle("sun-mode");
+        });
+    </script>
 </body>
 
 </html>

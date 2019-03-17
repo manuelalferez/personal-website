@@ -3,13 +3,18 @@ body {
     display: grid;
     margin: 0;
     grid-template: 8vh auto / 5% 10% 70% 15%;
-    grid-template-areas: "home . page-tittle ." ". . content .";
+    grid-template-areas: "home . page-tittle dark-mode" ". . content .";
+}
+
+body.sun-mode {
+    background: black;
+    color: white;
 }
 
 /*HOME*/
 
 .home {
-    grid-area: home;    
+    grid-area: home;
 }
 
 .home img {
@@ -35,7 +40,7 @@ body {
 }
 
 .page-tittle a {
-    color: black;
+    color: inherit;
     text-decoration: none;
 }
 
@@ -45,9 +50,43 @@ body {
     display: fixed;
 }
 
+/*DARK MODE*/
+
+.dark-mode {
+    grid-area: dark-mode;
+    background-image: url(../images/sleep-mode.svg);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    width: 40px;
+    background-position-y: 10px;
+    cursor: pointer;
+
+}
+
+.dark-mode.sun-mode {
+    animation-name: sun-mode;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+    will-change: opacity, transform;
+}
+
+@keyframes sun-mode {
+    0% {
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100% {
+        background-image: url(../images/sun.svg);
+        transform: scale (1);
+    }
+}
+
 /*CONTENT*/
 
 .content {
+    color: inherit;
     margin-top: 10px;
     grid-area: content;
     display: grid;
@@ -59,7 +98,6 @@ body {
 /*POST*/
 
 .post {
-    background: white;
     border-bottom: 2px solid rgb(107, 106, 106);
     grid-column-end: span 1;
     grid-row-end: span 1;
@@ -68,13 +106,12 @@ body {
     grid-template-areas: "post-tittle" "post-content" "post-date";
     margin: 0 0 30px;
     height: 500px;
+    color: inherit;
 }
 
-.post a{
-    text-decoration: none;
-    color: black;
+.post a {
+    color: inherit;
     font-weight: bold;
-    background-image: url("../images/link-symbol.svg");
     background-position-x: 100%;
     background-position-y: 20%;
     background-size: .6em;
@@ -95,7 +132,7 @@ body {
 }
 
 .post-title h2 {
-    margin: 0;  
+    margin: 0;
     font-size: 2.5em;
 }
 
@@ -147,7 +184,7 @@ body {
         grid-template: 8vh auto /10% 90%;
         grid-template-areas: "home page-tittle" "content content";
     }
-    .content{
+    .content {
         margin-top: 0;
     }
 }
@@ -155,7 +192,7 @@ body {
 @media screen and (max-width: 320px) {
     .post {
         font-size: 11px;
-        height:700px;
+        height: 700px;
     }
     body {
         grid-template: 8vh auto /20% 80%;
