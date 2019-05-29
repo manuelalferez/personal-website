@@ -1,0 +1,29 @@
+.Button{
+    height: 50px;
+    width: 100px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3em;
+}
+
+.Button:hover{
+    cursor: pointer;
+    background: black;
+}
+
+.Button a {
+    text-decoration: none;
+    color: black;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+}
+
+.Button:hover a{
+    color: white;
+    font-weight: bold;
+}
