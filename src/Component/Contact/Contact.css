@@ -1,8 +1,11 @@
 .Contact {
-    height: 100vh;
-    width: 100vw;
-    font-size: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 80vh;
+  widows: 100vw;
+  background-image: url("../../images/Home/wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20vh;
 }

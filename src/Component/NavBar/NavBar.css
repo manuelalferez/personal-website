@@ -1,0 +1,12 @@
+.NavBarContainer {
+  position: absolute;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.NavBar {
+  position: relative;
+  display: flex;
+  position: relative;
+}

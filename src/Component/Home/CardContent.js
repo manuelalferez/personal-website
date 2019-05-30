@@ -1,12 +1,12 @@
 import React from "react";
-import "./Card.css";
+import "./CardContent.css";
 import profilePicture from "../../images/Home/profile.png";
-import socialData from "../../data/SocialData";
-import cardData from "../../data/CardData";
+import socialData from "../../data/Home/SocialData";
+import cardData from "../../data/Home/CardData";
 
-function Card(props) {
+function CardContent(props) {
   return (
-    <div className="Card">
+    <div className='CardContent'>
       <div className="Card__header">
         <img className="Header__picture" src={profilePicture} />
         <div className="Header__description">
@@ -65,4 +65,4 @@ function Card(props) {
   );
 }
 
-export default Card;
+export default CardContent;
