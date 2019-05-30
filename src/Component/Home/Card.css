@@ -1,17 +1,18 @@
 @font-face {
-  font-family: 'icomoon';
-  src:  url('../../fonts/icomoon.eot?s8hcxg');
-  src:  url('../../fonts/icomoon.eot?s8hcxg#iefix') format('embedded-opentype'),
-    url('../../fonts/icomoon.ttf?s8hcxg') format('truetype'),
-    url('../../fonts/icomoon.woff?s8hcxg') format('woff'),
-    url('../../fonts/icomoon.svg?s8hcxg#icomoon') format('svg');
+  font-family: "icomoon";
+  src: url("../../fonts/icomoon.eot?s8hcxg");
+  src: url("../../fonts/icomoon.eot?s8hcxg#iefix") format("embedded-opentype"),
+    url("../../fonts/icomoon.ttf?s8hcxg") format("truetype"),
+    url("../../fonts/icomoon.woff?s8hcxg") format("woff"),
+    url("../../fonts/icomoon.svg?s8hcxg#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^="icon-"],
+[class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
+  font-family: "icomoon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -37,59 +38,57 @@
   content: "\eac9";
 }
 
-
 .Card {
   background: #f4f4f6c2;
   width: 500px;
   height: 500px;
   border-radius: 10px;
   display: grid;
-  grid-template-areas: 'Header' 'Bio' 'Social' 'Footer';
+  grid-template-areas: "Header" "Bio" "Social" "Footer";
   grid-template-rows: 25% 50% 15% 10%;
-
 }
 
-.Card__header{
+.Card__header {
   grid-area: Header;
   display: flex;
 }
 
-.Header__picture{
-    height: 120px;
-    width: 120px;
-    border-radius: 50%;
-    object-fit: cover;
-    padding: 2em;
+.Header__picture {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  padding: 2em;
 }
 
-.Header__description{
-    padding-top: 3em;
-    font-size: 1.1em;
+.Header__description {
+  padding-top: 3em;
+  font-size: 1.1em;
 }
 
-.Header__description p{
+.Header__description p {
   margin: 0;
 }
 
-.Card__bio{
+.Card__bio {
   grid-area: Bio;
 }
 
-.Bio__title{
+.Bio__title {
   margin-top: 2em;
   text-align: center;
 }
 
-.Bio__description{
+.Bio__description {
   margin: 0 1em 0 1em;
   text-indent: 1.5em;
 }
 
-.Bio__description a{
-  background-image: url('../../images/Home/link.svg');
+.Bio__description a {
+  background-image: url("../../images/Home/link.svg");
   background-position-x: 100%;
   background-position-y: 20%;
-  background-size: .6em;
+  background-size: 0.6em;
   background-repeat: no-repeat;
   padding-right: 10px;
   margin: 0 5px 0 5px;
@@ -98,35 +97,37 @@
   font-weight: bold;
 }
 
-.Bio__description a:hover, .Card__social a:hover, .Card__footer a:hover{
-  color: #FD6901;
+.Bio__description a:hover,
+.Card__social a:hover,
+.Card__footer a:hover {
+  color: #fd6901;
 }
 
-.Card__social{
+.Card__social {
   grid-area: Social;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 
-.Card__social a{
+.Card__social a {
   text-decoration: none;
   color: black;
   font-size: 2em;
 }
 
-.Card__footer{
+.Card__footer {
   grid-area: Footer;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.Card__footer a{
+.Card__footer a {
   text-decoration: none;
   color: black;
   font-weight: bold;
   margin-left: 10px;
-  font-family: 'Homemade Apple', cursive;
-  font-size: .7em;
+  font-family: "Homemade Apple", cursive;
+  font-size: 0.7em;
 }

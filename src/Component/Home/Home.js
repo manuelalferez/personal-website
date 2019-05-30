@@ -9,7 +9,7 @@ function Home(props) {
   return (
     <div className="Home">
       <div className="Home__BarButtons">
-        <Button content="Contacto" path="/contact" image={contactIcon} />
+        <Button content="Contact" path="/contact" image={contactIcon} />
         <Button content="Blog" path="/blog" image={blogIcon} />
       </div>
       <Card />

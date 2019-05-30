@@ -2,7 +2,7 @@ import React from "react";
 import "./Card.css";
 import profilePicture from "../../images/Home/profile.png";
 import socialData from "../../data/SocialData";
-/* import cardData from '../../Data/CardData'; */
+import cardData from "../../data/CardData";
 
 function Card(props) {
   return (
@@ -10,18 +10,17 @@ function Card(props) {
       <div className="Card__header">
         <img className="Header__picture" src={profilePicture} />
         <div className="Header__description">
-          <p>Hi! I'm Manuel Alférez Ruiz</p>
-          <p>I live in Jaén, Spain</p>
+          <p>{cardData.greeting}</p>
+          <p>{cardData.live}</p>
           <br />
-          <p>Developing | Sharing | Kaizen</p>
+          <p>{cardData.status}</p>
         </div>
       </div>
       <div className="Card__bio">
         <h1 className="Bio__title">Little about me</h1>
         <div className="Bio__description">
           <p>
-            At the moment, I am learning Front-end and English. At the same time
-            we help grow the
+            {cardData.bioPartOne}
             <a
               href="https://twitter.com/GdgJaen"
               target="_blank"
@@ -29,7 +28,7 @@ function Card(props) {
             >
               GDG Jaén
             </a>
-            community and I study computer engineering at
+            {cardData.bioPartTwo}
             <a
               href="https://www.ujaen.es/"
               target="_blank"
@@ -38,7 +37,7 @@ function Card(props) {
               UJA
             </a>
           </p>
-          <p>The future ... the future is exciting.</p>
+          <p>{cardData.bioPartThree}</p>
         </div>
       </div>
       <div className="Card__social">
