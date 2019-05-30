@@ -2,15 +2,15 @@ import React from "react";
 import "./Home.css";
 import Card from "./Card";
 import Button from "./Button";
-import Contact from "../Contact/Contact";
-import Blog from "../Blog/Blog";
+import contactIcon from "../../images/Home/contact.svg";
+import blogIcon from "../../images/Home/blog.svg";
 
 function Home(props) {
   return (
     <div className="Home">
       <div className="Home__BarButtons">
-        <Button content="Contacto" path="/contact" />
-        <Button content="Blog" path="/blog" />
+        <Button content="Contacto" path="/contact" image={contactIcon} />
+        <Button content="Blog" path="/blog" image={blogIcon} />
       </div>
       <Card />
     </div>
