@@ -13,6 +13,7 @@ function NavBar(props) {
             content={item.content}
             path={item.path}
             image={images[item.posImportImage]}
+            key={item.path}
           />
         ))}
         {props.children}

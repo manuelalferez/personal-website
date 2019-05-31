@@ -1,13 +1,57 @@
-.PostMini{
-    height: 150px;
-    width: 45%;
-    border: 2px solid black;
-    background: white;
-    border-radius: 10px;
-    margin-bottom: 1em;
+.PostMini {
+  height: 250px;
+  width: 45%;
+  border: 2px solid black;
+  background: #eeeeee;
+  border-radius: 10px;
+  margin-bottom: 2em;
+  display: grid;
+  grid-template-areas: "New Title" ". Summary" ". Date";
+  grid-template-rows: 20% 70% 10%;
+  grid-template-columns: 10% 90%;
+  text-decoration: none;
+  color: black;
 }
 
-.PostMini:hover{
-    cursor: pointer;
-    border: 4px solid black;
+.PostMini:hover {
+  cursor: pointer;
+  border: 4px solid #fd6901;
+  background: #fd6a012d;
+}
+
+.PostMini__image {
+  grid-area: New;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0 0 10px;
+  display: none;
+}
+
+.isNew {
+  display: block;
+}
+
+.PostMini__title {
+  grid-area: Title;
+  margin: 1em 0 0 0;
+  padding-left: 1em;
+  font-size: 1.5em;
+}
+
+.PostMini__summary {
+  grid-area: Summary;
+  font-size: 0.8em;
+  padding-right: 1em;
+  margin-top: 1em;
+  text-indent: 1em;
+}
+
+.PostMini__date {
+  grid-area: Date;
+  padding-left: 75%;
+  font-size: 0.7em;
+  color: rgb(141, 141, 141);
 }
