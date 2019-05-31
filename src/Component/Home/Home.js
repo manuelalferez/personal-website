@@ -1,12 +1,12 @@
 import React from "react";
 import "./Home.css";
-import CardContent from "./CardContent";
 import Card from "../Card/Card";
+import CardHome from "./CardHome";
 
 function Home(props) {
   return (
     <div className="Home">
-      <Card content={<CardContent/>}/>
+      <Card content={<CardHome/>}/>
     </div>
   );
 }

@@ -1,7 +1,12 @@
 .Blog {
-    widows: 100vw;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 20vh;
+  widows: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 1em;
+  width: 60vw;
+  background: #eeeeee;
+  margin: auto;
+  position: relative;
+  top: 20vh;
 }

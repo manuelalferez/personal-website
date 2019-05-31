@@ -38,8 +38,8 @@
   content: "\eac9";
 }
 
-.CardContent {
-  background: #f4f4f6c2;
+.CardHome {
+  background: #f4f4f600;
   width: 500px;
   height: 500px;
   border-radius: 10px;
@@ -48,7 +48,7 @@
   grid-template-rows: 25% 50% 15% 10%;
 }
 
-.Card__header {
+.CardHome__header {
   grid-area: Header;
   display: flex;
 }
@@ -70,7 +70,7 @@
   margin: 0;
 }
 
-.Card__bio {
+.CardHome__bio {
   grid-area: Bio;
 }
 
@@ -85,7 +85,7 @@
 }
 
 .Bio__description a {
-  background-image: url("../../images/Home/link.svg");
+  background-image: url("../../images/link.svg");
   background-position-x: 100%;
   background-position-y: 20%;
   background-size: 0.6em;
@@ -98,32 +98,32 @@
 }
 
 .Bio__description a:hover,
-.Card__social a:hover,
-.Card__footer a:hover {
+.CardHome__social a:hover,
+.CardHome__footer a:hover {
   color: #fd6901;
 }
 
-.Card__social {
+.CardHome__social {
   grid-area: Social;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 
-.Card__social a {
+.CardHome__social a {
   text-decoration: none;
   color: black;
   font-size: 2em;
 }
 
-.Card__footer {
+.CardHome__footer {
   grid-area: Footer;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.Card__footer a {
+.CardHome__footer a {
   text-decoration: none;
   color: black;
   font-weight: bold;

@@ -1,0 +1,86 @@
+.CardContact {
+  display: grid;
+  grid-template-areas: "Header" "Contact" "Description";
+  grid-template-rows: 30% 60% 10%;
+}
+
+.CardContact__header {
+  grid-area: Header;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding-top: 10px;
+}
+
+.CardContact__header img {
+  height: 100px;
+  width: 100px;
+}
+
+.CardContact__description {
+  grid-area: Description;
+  padding: 1em;
+}
+
+.CardContact__description p {
+  margin: 0 1em 0 1em;
+  text-indent: 1em;
+  font-size: 0.9em;
+}
+
+.CardContact__description a {
+  background-image: url("../../images/link.svg");
+  background-position-x: 100%;
+  background-position-y: 20%;
+  background-size: 0.6em;
+  background-repeat: no-repeat;
+  padding-right: 10px;
+  margin: 0 5px 0 5px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.CardContact__description a:hover {
+  color: #fd6901;
+}
+
+.CardContact__contacts {
+  grid-area: Contact;
+  padding: 2em;
+  padding-top: 0;
+}
+
+.CardContact__contacts img {
+  height: 25px;
+  width: 25px;
+  margin-right: 0.5em;
+}
+
+.Contacts__email,
+.Contacts__telegram {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 1em;
+  margin-top: 1em;
+  background: #eeeeee93;
+}
+
+.Contacts__email p,
+.Contacts__telegram p {
+  margin: 0;
+}
+
+.Contacts__email h1,
+.Contacts__telegram h1 {
+  font-size: 1.1em;
+  margin: 0;
+}
+
+.Email,
+.Telegram {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+}

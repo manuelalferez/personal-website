@@ -1,13 +1,13 @@
 import React from "react";
-import "./CardContent.css";
+import "./CardHome.css";
 import profilePicture from "../../images/Home/profile.png";
 import socialData from "../../data/Home/SocialData";
 import cardData from "../../data/Home/CardData";
 
-function CardContent(props) {
+function CardHome(props) {
   return (
-    <div className='CardContent'>
-      <div className="Card__header">
+    <div className='CardHome'>
+      <div className="CardHome__header">
         <img className="Header__picture" src={profilePicture} />
         <div className="Header__description">
           <p>{cardData.greeting}</p>
@@ -16,7 +16,7 @@ function CardContent(props) {
           <p>{cardData.status}</p>
         </div>
       </div>
-      <div className="Card__bio">
+      <div className="CardHome__bio">
         <h1 className="Bio__title">Little about me</h1>
         <div className="Bio__description">
           <p>
@@ -40,7 +40,7 @@ function CardContent(props) {
           <p>{cardData.bioPartThree}</p>
         </div>
       </div>
-      <div className="Card__social">
+      <div className="CardHome__social">
         {socialData.map(item => (
           <a
             className={item.className}
@@ -51,7 +51,7 @@ function CardContent(props) {
           />
         ))}
       </div>
-      <div className="Card__footer">
+      <div className="CardHome__footer">
         Designed and made with ❤️ by
         <a
           href="https://twitter.com/manuelalferez "
@@ -65,4 +65,4 @@ function CardContent(props) {
   );
 }
 
-export default CardContent;
+export default CardHome;
