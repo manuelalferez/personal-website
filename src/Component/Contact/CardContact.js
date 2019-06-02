@@ -14,7 +14,7 @@ function CardContact(props) {
       <div className="CardContact__contacts">
         <div className="Contacts__email">
           <div className="Email">
-            <img src={imageEmail} />
+            <img src={imageEmail} alt='Email illustration'/>
             <h1>Email: manuelalferezruiz [at] gmail [dot] com</h1>
           </div>
           <div className="Email__schedule">
@@ -30,7 +30,7 @@ function CardContact(props) {
         </div>
         <div className="Contacts__telegram">
           <div className="Telegram">
-            <img src={imageTelegram} />
+            <img src={imageTelegram} alt='Telegram illustration'/>
             <h1>Telegram: @manuelalferez</h1>
           </div>
           <div className="Telegram__schedule">

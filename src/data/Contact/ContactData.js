@@ -4,7 +4,7 @@ const data = {
     weekend: '15PM'
   },
   telegram: {
-    weekday: "9AM 12PM 15PM 19PM",
+    weekday: "9AM to 19PM",
     weekend: '9AM 15PM'
   }
 };
