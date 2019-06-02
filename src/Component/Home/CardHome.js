@@ -6,9 +6,13 @@ import cardData from "../../data/Home/CardData";
 
 function CardHome(props) {
   return (
-    <div className='CardHome'>
+    <div className="CardHome">
       <div className="CardHome__header">
-        <img className="Header__picture" src={profilePicture} />
+        <img
+          className="Header__picture"
+          src={profilePicture}
+          alt="Manuel face"
+        />
         <div className="Header__description">
           <p>{cardData.greeting}</p>
           <p>{cardData.live}</p>
@@ -48,11 +52,15 @@ function CardHome(props) {
             key={item.key}
             target="_blank"
             rel="noopener noreferrer"
-          />
+          > <span>Read More</span></a>
         ))}
       </div>
       <div className="CardHome__footer">
-        Designed and made with ❤️ by
+        Designed and made with
+        <span className='Footer__heart' role="img" aria-label="heart">
+          ❤️
+        </span>
+        by
         <a
           href="https://twitter.com/manuelalferez "
           target="_blank"

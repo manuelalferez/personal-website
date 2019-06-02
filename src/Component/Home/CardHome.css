@@ -116,6 +116,15 @@
   font-size: 2em;
 }
 
+/* To avoid the error: Anchors must have content and the content must be accessible by a screen reader */
+.CardHome__social a span {
+  height: 1px;
+  width: 1px;
+  position: absolute;
+  overflow: hidden;
+  top: -10px;
+}
+
 .CardHome__footer {
   grid-area: Footer;
   display: flex;
@@ -130,4 +139,8 @@
   margin-left: 10px;
   font-family: "Homemade Apple", cursive;
   font-size: 0.7em;
+}
+
+.Footer__heart {
+  margin: 0 5px 0 5px;
 }
