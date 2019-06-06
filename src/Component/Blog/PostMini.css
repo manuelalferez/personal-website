@@ -51,7 +51,6 @@
 
 .PostMini__date {
   grid-area: Date;
-  padding-left: 75%;
   font-size: 0.7em;
   color: rgb(141, 141, 141);
 }
