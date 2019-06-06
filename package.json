@@ -2,7 +2,7 @@
   "name": "pagina-contacto",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/manuelalferez/pagina-contacto",
+  "homepage": "https://www.manuelalferez.com",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",

@@ -7,7 +7,7 @@
   margin-bottom: 2em;
   display: grid;
   grid-template-areas: "New Title" ". Summary" ". Date";
-  grid-template-rows: 20% 70% 10%;
+  grid-template-rows: 20% 65% 15%;
   grid-template-columns: 10% 90%;
   text-decoration: none;
   color: black;
@@ -62,8 +62,12 @@
     height: 150px;
   }
   .PostMini__image {
-    height: 25px;
-    width: 25px;
+    height: 20px;
+    width: 20px;
+    margin: 5px 0 0 5px;
+  }
+  .PostMini__title {
+    margin-top: 0.4em;
   }
 }
 
@@ -76,7 +80,7 @@
     margin-bottom: 2em;
   }
   .PostMini__image {
-    height: 20px;
-    width: 20px;
+    height: 15px;
+    width: 15px;
   }
 }
