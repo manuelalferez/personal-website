@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/manuelalferez/pagina-contacto/precache-manifest.30b0aee47bf76f52659329f59d4c7621.js"
+  "/manuelalferez/pagina-contacto/precache-manifest.16f17583730c8074e5a1e199beff95a1.js"
 );
 
 self.addEventListener('message', (event) => {
