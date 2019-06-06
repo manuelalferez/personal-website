@@ -11,10 +11,9 @@ const posts = [
     }
   }, */
   {
-    title: "Where does it come from?",
+    title: "What is [at] and [dot]?",
     summary: [
-      "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. ",
-      "Contrary to popular belief, Lorem Ipsum is not simply random text."
+      "When we share our mail over the internet it is very important to offer it securely. A very simple and useful way and in this way avoid being spammed."
     ],
     key: "1",
     date: {
@@ -27,24 +26,6 @@ const posts = [
       spanish: true,
       english: true
     }
-  },
-  {
-    title: "Where does it come from?",
-      summary: [
-        "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. ",
-        "Contrary to popular belief, Lorem Ipsum is not simply random text."
-      ],
-      key: "1",
-      date: {
-        year: "2019",
-        month: "6",
-        day: "2"
-      },
-      link: "https://telegra.ph/What-is-at-and-dot--Qu%C3%A9-es-at-y-dot-06-02",
-      languages: {
-        spanish: true,
-        english: true
-      }
   }
 ];
 
