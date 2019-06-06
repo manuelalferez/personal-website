@@ -6,4 +6,8 @@ body {
 }
 
 /*MEADIA QUERIES*/
-/* TODO */
+@media (max-width: 768px) {
+  .Home {
+    height: 80vh;
+  }
+}

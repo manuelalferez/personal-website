@@ -1,4 +1,4 @@
-# Página Web de contacto
+# Contact page
 
-> Tarjeta con información de contacto, información básica y redes sociales. 
- [Enlace](https://manuelalferez.github.io/pagina-contacto/)
+> Card with contact information, personal information and socials medias. 
+ [Web Page](https://manuelalferez.github.io/pagina-contacto/)

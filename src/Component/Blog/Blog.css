@@ -7,3 +7,23 @@
   flex-wrap: wrap;
   padding-top: 20vh;
 }
+
+@media (max-width: 1024px) {
+  .Blog {
+    width: 90vw;
+    font-size: 0.8em;
+  }
+}
+@media (max-width: 768px) {
+  .Blog {
+    width: 80vw;
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 480px) {
+  .Blog {
+    width: 90vw;
+    display: block;
+  }
+}

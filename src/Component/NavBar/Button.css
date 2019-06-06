@@ -15,9 +15,9 @@
   cursor: pointer;
 }
 
-.Button:active{
-  transition-duration: .2s;
-  transform: scale(.9);
+.Button:active {
+  transition-duration: 0.2s;
+  transform: scale(0.9);
   border-bottom: none;
 }
 
@@ -35,4 +35,30 @@
   width: 20px;
   margin-right: 0.5em;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  .Button {
+    font-size: 0.8em;
+    margin: 2em;
+  }
+  .Button__image {
+    height: 1.5em;
+    width: 1.5em;
+  }
+}
+
+@media (max-width: 320px) {
+  .Button {
+    height: 40px;
+    width: 80px;
+    margin: 1em;
+  }
+  .Button__image {
+    height: 1.5em;
+    width: 1.5em;
+  }
+  .Button a {
+    line-height: 40px;
+  }
 }

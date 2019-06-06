@@ -55,3 +55,28 @@
   font-size: 0.7em;
   color: rgb(141, 141, 141);
 }
+
+@media (max-width: 768px) {
+  .PostMini {
+    font-size: 0.8em;
+    height: 150px;
+  }
+  .PostMini__image {
+    height: 25px;
+    width: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .PostMini {
+    font-size: 0.6em;
+    height: 100px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2em;
+  }
+  .PostMini__image {
+    height: 20px;
+    width: 20px;
+  }
+}

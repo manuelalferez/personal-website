@@ -144,3 +144,41 @@
 .Footer__heart {
   margin: 0 5px 0 5px;
 }
+
+@media (max-width: 768px) {
+  .CardHome {
+    width: 400px;
+    height: 400px;
+    font-size: 0.8em;
+  }
+  .Header__picture {
+    height: 90px;
+    width: 90px;
+  }
+}
+
+@media (max-width: 480px) {
+  .CardHome {
+    width: 350px;
+    height: 350px;
+    font-size: 0.7em;
+  }
+  .Header__picture {
+    height: 80px;
+    width: 80px;
+  }
+}
+
+@media (max-width: 320px) {
+  .CardHome {
+    width: 300px;
+    height: 300px;
+  }
+  .Header__picture {
+    height: 50px;
+    width: 50px;
+  }
+  .Bio__title {
+    margin-top: 1.5em;
+  }
+}

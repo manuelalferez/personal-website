@@ -10,3 +10,9 @@
   display: flex;
   position: relative;
 }
+
+@media (max-width: 768px) {
+  .NavBarContainer {
+    font-size: 0.8em;
+  }
+}

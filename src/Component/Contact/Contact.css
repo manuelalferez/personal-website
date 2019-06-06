@@ -3,7 +3,7 @@
   widows: 100vw;
   background-image: url("../../images/Home/wallpaper.jpg");
   background-repeat: no-repeat;
-  background-size: 100vw;
+  background-size: cover;
   display: flex;
   align-items: center;
   flex-direction: column;
