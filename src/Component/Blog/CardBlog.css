@@ -1,0 +1,9 @@
+.CardBlog {
+  background: #f4f4f6c2;
+  width: 1000px;
+  height: 600px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-areas: "Sidebar Content";
+  grid-template-columns: 20% 80%;
+}

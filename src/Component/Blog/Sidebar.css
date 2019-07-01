@@ -1,0 +1,37 @@
+.Sidebar {
+  grid-area: Sidebar;
+  border-right: 5px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Sidebar__title {
+  position: absolute;
+  top: 24vh;
+}
+
+.Sidebar__category {
+  background: #eeeeee;
+  height: 50px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+  border-radius: 10px;
+  outline: none;
+  font-size: 0.9em;
+}
+
+.Sidebar__category:active {
+  transition-duration: 0.2s;
+  transform: scale(0.7);
+}
+
+.Sidebar__category:hover {
+  cursor: pointer;
+  background: #fd6901;
+  color: white;
+}

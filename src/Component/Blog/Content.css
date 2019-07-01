@@ -1,0 +1,42 @@
+.Content {
+  padding: 1em;
+  padding-top: 2em;
+  grid-area: Content;
+  display: grid;
+  grid-template-areas: "Body" "Controls" "Pages";
+  grid-template-rows: 85% 10% 5%;
+}
+
+.Content__body {
+  grid-area: Body;
+}
+
+.Content__controls {
+  grid-area: Controls;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Controls__botton {
+  height: 30px;
+  width: 30px;
+  background: rgba(255, 255, 255, 0.658);
+  border: none;
+  border-radius: 5px;
+  margin-right: 1em;
+  outline: none;
+}
+
+.Controls__botton:active {
+    transition-duration: 0.2s;
+    transform: scale(0.7);
+  }
+
+.Controls__botton:hover {
+  cursor: pointer;
+}
+
+.Content__pages {
+  grid-area: Pages;
+}
