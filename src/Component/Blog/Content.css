@@ -18,6 +18,10 @@
   align-items: center;
 }
 
+.Content__controls.noShow{
+  display: none;
+}
+
 .Controls__botton {
   height: 30px;
   width: 30px;
@@ -39,4 +43,9 @@
 
 .Content__pages {
   grid-area: Pages;
+}
+
+.Body__title{
+  display: flex;
+  justify-content: center;
 }
