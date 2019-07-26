@@ -24,17 +24,25 @@
 
 .Controls__botton {
   height: 30px;
-  width: 30px;
+  width: 90px;
   background: rgba(255, 255, 255, 0.658);
-  border: none;
+  border-bottom: 1px solid rgb(68, 68, 68);
   border-radius: 5px;
   margin-right: 1em;
-  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Controls__botton img{
+  height: 15px;
+  width: 15px;
 }
 
 .Controls__botton:active {
     transition-duration: 0.2s;
     transform: scale(0.7);
+    border: none;
   }
 
 .Controls__botton:hover {
