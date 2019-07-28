@@ -5,10 +5,38 @@
   display: grid;
   grid-template-areas: "Body" "Controls" "Pages";
   grid-template-rows: 85% 10% 5%;
+  background: #f4f4f6;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .Content__body {
   grid-area: Body;
+}
+
+.Body__header.noShow {
+  display: none;
+}
+
+.Header__title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.Header__date {
+  font-size: 12px;
+  margin: 0;
+  height: 1em;
+  width: 60px;
+  padding: 0.5em;
+  border-radius: 5px;
+  background: #CEEAD6;
+  color: #0D652C;
+}
+
+.Body__content {
+  text-indent: 20px;
 }
 
 .Content__controls {
@@ -18,7 +46,7 @@
   align-items: center;
 }
 
-.Content__controls.noShow{
+.Content__controls.noShow {
   display: none;
 }
 
@@ -34,16 +62,20 @@
   align-items: center;
 }
 
-.Controls__botton img{
+.Controls__botton img {
   height: 15px;
   width: 15px;
 }
 
 .Controls__botton:active {
-    transition-duration: 0.2s;
-    transform: scale(0.7);
-    border: none;
-  }
+  transition-duration: 0.2s;
+  transform: scale(0.7);
+  border: none;
+}
+
+.Controls__botton:hover{
+  background: #FEF7E0;
+}
 
 .Controls__botton:hover {
   cursor: pointer;
@@ -51,9 +83,13 @@
 
 .Content__pages {
   grid-area: Pages;
-}
-
-.Body__title{
-  display: flex;
-  justify-content: center;
+  font-size: .9em;
+  margin: 0;
+  height: 1em;
+  width: 90px;
+  padding: 0.5em;
+  border-radius: 5px;
+  background: #FCE8E6;
+  color: #B31312;
+  text-align: center;
 }

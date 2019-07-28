@@ -1,10 +1,13 @@
 .Sidebar {
   grid-area: Sidebar;
-  border-right: 5px solid white;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  border: 5px solid #f4f4f6;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+
 }
 
 .Sidebar__title {

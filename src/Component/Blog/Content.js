@@ -19,6 +19,15 @@ class Content extends Component {
     }
   }
 
+  componentDidUpdate() {
+    const header = document.getElementById("Body__header");
+    if (this.props.currentPage !== 1) {
+      header.classList.add("noShow");
+    } else {
+      header.classList.remove("noShow");
+    }
+  }
+
   handleClick(mode) {
     this.props.onChangePage(mode);
   }
@@ -27,10 +36,17 @@ class Content extends Component {
     return (
       <div className="Content">
         <div className="Content__body">
-          <h2 className="Body__title">{posts[0].content.title}</h2>
-          {posts[0].content.text[this.props.currentPage - 1].map(paragraph => (
-            <p>{paragraph}</p>
-          ))}
+          <div className="Body__header" id="Body__header">
+            <h2 className="Header__title">{posts[0].content.title}</h2>
+            <p className="Header__date">{posts[0].date}</p>
+          </div>
+          <div className="Body__content">
+            {posts[0].content.text[this.props.currentPage - 1].map(
+              paragraph => (
+                <p>{paragraph}</p>
+              )
+            )}
+          </div>
         </div>
         <div className="Content__controls" id="controls">
           <div
