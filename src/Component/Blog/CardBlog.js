@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./CardBlog.css";
-import NavBar from "./Sidebar";
+import Sidebar from "./Sidebar";
 import Content from "./Content";
 
 const NEXT = 1;
@@ -16,6 +16,7 @@ class CardBlog extends Component {
       currentPage: 1
     };
     this.onChangePage = this.onChangePage.bind(this);
+    this.onChangeCategory = this.onChangeCategory.bind(this);
   }
 
   onChangePage(mode) {
@@ -29,10 +30,16 @@ class CardBlog extends Component {
     }
   }
 
+  onChangeCategory(newCategory){
+    this.setState({
+      category: newCategory 
+    });
+  }
+
   render() {
     return (
       <div className="CardBlog">
-        <NavBar />
+        <Sidebar manageClick={this.onChangeCategory} />
         <Content
           category={this.state.category}
           currentPage={this.state.currentPage}

@@ -1,19 +1,18 @@
 const data = [
   {
-    category: "Books",
-    key: 0
+    category: "Home"
   },
   {
-    category: "Reflections",
-    key: 1
+    category: "Books"
   },
   {
-    category: "Computing",
-    key: 2
+    category: "Reflections"
   },
   {
-    category: "Experiences",
-    key: 3
+    category: "Computing"
+  },
+  {
+    category: "Experiences"
   }
 ];
 

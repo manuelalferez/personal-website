@@ -7,7 +7,7 @@ function Sidebar(props) {
     <div className="Sidebar">
       <h2 className="Sidebar__title">Categories</h2>
       {data.map(item => (
-        <button className="Sidebar__category" key={item.key}>
+        <button className="Sidebar__category" onClick={()=>props.manageClick(item.category)} key={item.category}>
           {item.category}
         </button>
       ))}

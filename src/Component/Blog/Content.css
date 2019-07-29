@@ -24,15 +24,16 @@
   margin-bottom: 0;
 }
 
-.Header__date {
+.Header__date,
+.Item__date {
   font-size: 12px;
   margin: 0;
   height: 1em;
   width: 60px;
   padding: 0.5em;
   border-radius: 5px;
-  background: #CEEAD6;
-  color: #0D652C;
+  background: #ceead6;
+  color: #0d652c;
 }
 
 .Body__content {
@@ -73,8 +74,8 @@
   border: none;
 }
 
-.Controls__botton:hover{
-  background: #FEF7E0;
+.Controls__botton:hover {
+  background: #fef7e0;
 }
 
 .Controls__botton:hover {
@@ -83,13 +84,42 @@
 
 .Content__pages {
   grid-area: Pages;
-  font-size: .9em;
+  font-size: 0.9em;
   margin: 0;
   height: 1em;
   width: 90px;
   padding: 0.5em;
   border-radius: 5px;
-  background: #FCE8E6;
-  color: #B31312;
+  background: #fce8e6;
+  color: #b31312;
   text-align: center;
+}
+
+.Posts__list {
+  margin-top: 20px;
+}
+
+.List__item {
+  grid-area: Pages;
+  font-size: 0.9em;
+  margin: 0;
+  margin-bottom: 10px;
+  height: 50px;
+  padding: 0.5em;
+  border-radius: 5px;
+  background: #fce8e6;
+}
+
+.List__item:hover {
+  cursor: pointer;
+  background: #FEDAAA;
+}
+
+.List__item:hover .Item__date{
+  background: rgb(240, 175, 91);
+  color: rgb(109, 62, 0);
+}
+
+.Item__title {
+  margin-left: 10px;
 }
