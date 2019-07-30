@@ -37,7 +37,11 @@ class Content extends Component {
   belongCategory(post) {
     if (post.category === this.props.category) {
       return (
-        <div className="List__item">
+        <div
+          className="List__item"
+          key={post.key}
+          onClick={() => this.props.selectPost(post.key)}
+        >
           <span className="Item__date">{post.date}</span>
           <span className="Item__title">{post.content.title}</span>
           <p className="Item__summary">{post.summary}</p>
@@ -47,17 +51,21 @@ class Content extends Component {
   }
 
   showBody() {
-    if (this.props.category === "Home") {
+    if (this.props.category === "Home" || !isNaN(this.props.category)) {
+      let post_Position = this.props.category;
+      if (this.props.category === "Home") {
+        post_Position = 0;
+      }
       return (
         <React.Fragment>
           <div className="Body__header" id="Body__header">
-            <h2 className="Header__title">{posts[0].content.title}</h2>
-            <p className="Header__date">{posts[0].date}</p>
+            <h2 className="Header__title">{posts[post_Position].content.title}</h2>
+            <p className="Header__date">{posts[post_Position].date}</p>
           </div>
           <div className="Body__content">
-            {posts[0].content.text[this.props.currentPage - 1].map(
+            {posts[post_Position].content.text[this.props.currentPage - 1].map(
               paragraph => (
-                <p>{paragraph}</p>
+                <div dangerouslySetInnerHTML={{ __html: paragraph }} />
               )
             )}
           </div>

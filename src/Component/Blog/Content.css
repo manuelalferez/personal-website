@@ -36,10 +36,6 @@
   color: #0d652c;
 }
 
-.Body__content {
-  text-indent: 20px;
-}
-
 .Content__controls {
   grid-area: Controls;
   display: flex;
@@ -122,4 +118,38 @@
 
 .Item__title {
   margin-left: 10px;
+}
+
+.Code{
+  font-family: 'Ubuntu Mono', monospace;
+  background: rgb(129, 129, 129);
+  background-image: url("../../images/Blog/code.svg");
+  background-position-x: 98%;
+  background-position-y: 20%;
+  background-size: 1em;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.Code p{
+  margin: .5em;
+}
+
+.Body__content a{
+  text-decoration: none;
+  background-image: url("../../images/link.svg");
+  background-position-x: 100%;
+  background-position-y: 20%;
+  background-size: 0.6em;
+  background-repeat: no-repeat;
+  padding-right: 17px;
+  color: black;
+  font-weight: bold;
+  
+}
+
+.Body__content a:hover{
+  color: #fd6901;
 }

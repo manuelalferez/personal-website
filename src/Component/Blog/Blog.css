@@ -1,10 +1,10 @@
 .Blog {
-  height: 80vh;
+  height: 85vh;
   widows: 100vw;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  padding-top: 20vh;
+  padding-top: 15vh;
   background-image: url("../../images/Home/wallpaper.jpg");
   background-repeat: no-repeat;
   background-size: cover;

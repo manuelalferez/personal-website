@@ -31,6 +31,7 @@ class CardBlog extends Component {
   }
 
   onChangeCategory(newCategory){
+    console.log(newCategory);
     this.setState({
       category: newCategory 
     });
@@ -44,6 +45,7 @@ class CardBlog extends Component {
           category={this.state.category}
           currentPage={this.state.currentPage}
           onChangePage={this.onChangePage}
+          selectPost={this.onChangeCategory}
         />
       </div>
     );
