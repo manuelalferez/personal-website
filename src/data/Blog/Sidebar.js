@@ -12,7 +12,7 @@ const data = [
     category: "Computing"
   },
   {
-    category: "Experiences"
+    category: "Experiencies"
   }
 ];
 

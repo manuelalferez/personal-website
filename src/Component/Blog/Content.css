@@ -14,7 +14,7 @@
   grid-area: Body;
 }
 
-.Body__header.noShow {
+.Body__header.no_show {
   display: none;
 }
 
@@ -43,7 +43,7 @@
   align-items: center;
 }
 
-.Content__controls.noShow {
+.Content__controls.no_show {
   display: none;
 }
 
@@ -78,8 +78,13 @@
   cursor: pointer;
 }
 
-.Content__pages {
+.Content__pages__download{
   grid-area: Pages;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Pages {
   font-size: 0.9em;
   margin: 0;
   height: 1em;
@@ -89,6 +94,29 @@
   background: #fce8e6;
   color: #b31312;
   text-align: center;
+}
+
+.Download{
+  font-size: .9em;
+  margin: 0;
+  height: 1.3em;
+  width: 100px;
+  padding: 0.5em;
+  border-radius: 5px;
+  background: #D2E3FC;
+  color: #174EA6;
+  text-align: center;
+  text-decoration: none;
+}
+
+.Download:hover{
+  cursor: pointer;
+}
+
+.Download img{
+  height: 1.4em;
+  width: 1.4em;
+  margin-right: 5px;
 }
 
 .Posts__list {

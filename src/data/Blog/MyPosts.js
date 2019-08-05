@@ -99,12 +99,7 @@ const data = [
 
            <a href='manuelalferez.com' alt='Página de manuel alferez'>Página principal</a>
           `
-        ],
-        [
-          `  <a href='manuelalferez.com' alt='Página de manuel alferez'>[2] manuelalferez.com</a> </br>
-          <a href='twitter.com' alt='Página de manuel alferez'>[3] twitter.com</a><p>twitter.com</p>
-          <p>I want to recommend you that read all my blogs.</p>`
-        ] 
+        ]
       ]
     }
   },
@@ -237,7 +232,7 @@ const data = [
     date: '28.07.2019',
     summary: 'Una pequeña introducción a la vida fuera de la tierra.',
     content: {
-      title: "Books number 2",
+      title: "Books number 5",
       text: [
         [
           "Books is a ...",
@@ -298,7 +293,17 @@ const data = [
         ]
       ]
     }
-  }
+  },
+  {
+    category: "Books",
+    key: 6,
+    pages: 2,
+    date: '23.01.2019',
+    summary: 'Razonamiento a nivel básico sobre la ética y el impacto en la sociedad actual.',
+    content: {
+      title: "Books number 6"
+    }
+  },
 ];
 
 export default data;
