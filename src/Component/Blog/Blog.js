@@ -1,6 +1,6 @@
 import React from "react";
 import "./Blog.css";
-import posts from "../../data/Blog/Posts";
+import posts from "../../data/Blog/PostsData";
 import { Link } from "react-router-dom";
 
 const CATEGORIES = ["Books", "Reflections", "Computing"];

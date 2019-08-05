@@ -1,9 +1,33 @@
 .Post {
-    width: 60vw;
-    margin: auto;
-    flex-wrap: wrap;
-    padding-top: 20vh;
-    margin-bottom: 10vh;
-    font-size: 24px;
-    background: #F1F5F9;
-  }
+  width: 60vw;
+  margin: auto;
+  flex-wrap: wrap;
+  padding-top: 20vh;
+  margin-bottom: 10vh;
+  font-size: 24px;
+  background: #f1f5f9;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: .5em;
+  display: flex;
+  justify-content: center;
+}
+
+.Post__date {
+  font-size: 0.6em;
+  width: 90px;
+  height: 30px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ceead6;
+  color: #2e7e4c;
+  margin-bottom: 4em;
+}
+
+.Post p{
+   text-align: justify;
+}
