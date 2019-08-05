@@ -6,6 +6,10 @@
   margin-bottom: 10vh;
 }
 
+html{
+  background: #F1F5F9;
+}
+
 .Blog__category{
   color: #d3beae;
 }

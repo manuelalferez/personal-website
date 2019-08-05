@@ -5,6 +5,7 @@ import Blog from "./Component/Blog/Blog";
 import PageNotFound from "./Component/PageNotFound/PageNotFound";
 import Contact from "./Component/Contact/Contact";
 import Layout from "./Component/Layout/Layout";
+import Post from "./Component/Blog/Post";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/blog" component={Blog} />
+          <Route exact path="/blog/post/:id" component={Post} />
           <Route component={PageNotFound} />
         </Switch>
       </Layout>
