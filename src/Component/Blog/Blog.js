@@ -1,23 +1,22 @@
 import React from "react";
 import "./Blog.css";
-import PostMini from "./PostMini";
-import posts from "../../data/Blog/PostMini";
+import posts from "../../data/Blog/Posts";
+
+const CATEGORIES = ["Books", "Reflections", "Computing"];
 
 function Blog(props) {
-  return (
-    <div className="Blog">
-      {posts.map(post => (
-        <PostMini
-          title={post.title}
-          summary={post.summary}
-          date={new Date(post.date.year, post.date.month - 1, post.date.day)}
-          link={post.link}
-          languages={post.languages}
-          key={post.key}
-        />
-      ))}
-    </div>
-  );
+  let list = [];
+
+  for (const category of CATEGORIES) {
+    list.push(<h1 key={category} className='Blog__category'>{category}</h1>);
+    for (const post of posts) {
+      if (post.category === category) {
+        list.push(<p key={post.key}><b>{post.title} - </b> {post.summary}</p>);
+      }
+    }
+  }
+
+  return <div className="Blog">{list}</div>;
 }
 
 export default Blog;

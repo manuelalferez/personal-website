@@ -1,11 +1,13 @@
 .Blog {
-  height: 80vh;
-  width: 70vw;
+  width: 60vw;
   margin: auto;
-  display: flex;
-  justify-content: space-evenly;
   flex-wrap: wrap;
   padding-top: 20vh;
+  margin-bottom: 10vh;
+}
+
+.Blog__category{
+  color: #d3beae;
 }
 
 @media (max-width: 1024px) {
