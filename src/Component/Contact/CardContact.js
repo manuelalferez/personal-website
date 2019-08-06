@@ -1,5 +1,7 @@
 import React from "react";
 import "./CardContact.css";
+import { Link } from "react-router-dom";
+
 import imageConnections from "../../images/Contact/connection.svg";
 import imageTelegram from "../../images/Contact/telegram.svg";
 import imageEmail from "../../images/Contact/mail.svg";
@@ -14,7 +16,7 @@ function CardContact(props) {
       <div className="CardContact__contacts">
         <div className="Contacts__email">
           <div className="Email">
-            <img src={imageEmail} alt='Email illustration'/>
+            <img src={imageEmail} alt="Email illustration" />
             <h1>Email: manuelalferezruiz [at] gmail [dot] com</h1>
           </div>
           <div className="Email__schedule">
@@ -30,7 +32,7 @@ function CardContact(props) {
         </div>
         <div className="Contacts__telegram">
           <div className="Telegram">
-            <img src={imageTelegram} alt='Telegram illustration'/>
+            <img src={imageTelegram} alt="Telegram illustration" />
             <h1>Telegram: @manuelalferez</h1>
           </div>
           <div className="Telegram__schedule">
@@ -49,11 +51,7 @@ function CardContact(props) {
         <p>
           The mail is obfuscated for security, if you do not know how to
           interpret it does not matter,
-          <a
-            href="https://telegra.ph/What-is-at-and-dot--Qu%C3%A9-es-at-y-dot-05-31"
-            target="_blank"
-            rel="noopener noreferrer"
-          >here</a>
+          <Link to={`/blog/post/id=${1}`}>here</Link>
           is a post to read it.
         </p>
       </div>

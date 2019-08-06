@@ -1,10 +1,11 @@
 .Post {
+  font-family: 'Roboto Slab', serif;
   width: 60vw;
   margin: auto;
   flex-wrap: wrap;
   padding-top: 20vh;
   margin-bottom: 10vh;
-  font-size: 24px;
+  font-size: 20px;
   background: #f1f5f9;
 }
 
@@ -17,17 +18,34 @@ h1 {
 
 .Post__date {
   font-size: 0.6em;
-  width: 90px;
+/*   width: 90px;
   height: 30px;
   border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
   background: #ceead6;
-  color: #2e7e4c;
+  color: #2e7e4c; */
   margin-bottom: 4em;
+  color: #757575
 }
 
 .Post p{
    text-align: justify;
+}
+
+.Post a{
+  text-decoration: none;
+}
+
+.Post a:hover{
+  text-decoration: underline;
+}
+
+.Citation{
+  border-left: 4px solid black;
+  padding: 10px;
+  padding-left: 15px;
+  font-style: italic;
+   background: rgb(234, 238, 241);
 }
