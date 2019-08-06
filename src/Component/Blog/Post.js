@@ -25,9 +25,6 @@ class Post extends Component {
         <div className="Post__date">
           <p>{posts[this.state.id].date}</p>
         </div>
-        {/*   {posts[this.state.id].content.map(paragraph => (
-          <div dangerouslySetInnerHTML={{ __html: paragraph }} />
-        ))} */}
         {
           <div
             dangerouslySetInnerHTML={{ __html: posts[this.state.id].content }}
