@@ -17,14 +17,14 @@ const onUpdate = () => {
 
 function App() {
   return (
-    <HashRouter onUpdate={onUpdate}>
+    <HashRouter>
       <Layout>
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/contact" component={Contact} />
-          <Route exact path="/blog" component={Blog} />
-          <Route exact path="/blog/post/:id" component={Post} />
-          <Route component={PageNotFound} />
+          <Route exact path="/" component={Home} onUpdate={onUpdate}/>
+          <Route exact path="/contact" component={Contact} onUpdate={onUpdate}/>
+          <Route exact path="/blog" component={Blog} onUpdate={onUpdate}/>
+          <Route exact path="/blog/post/:id" component={Post} onUpdate={onUpdate}/>
+          <Route component={PageNotFound} onUpdate={onUpdate} />
         </Switch>
       </Layout>
     </HashRouter>
