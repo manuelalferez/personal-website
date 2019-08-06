@@ -5,12 +5,13 @@
   "homepage": "https://www.manuelalferez.com",
   "dependencies": {
     "gh-pages": "^2.0.1",
+    "querystringify": ">=2.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-ga": "^2.6.0",
     "react-router": "^5.0.0",
     "react-router-dom": "^5.0.0",
-    "react-scripts": "3.0.1",
-    "querystringify": ">=2.0.0"
+    "react-scripts": "3.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
