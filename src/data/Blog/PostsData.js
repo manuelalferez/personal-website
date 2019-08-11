@@ -161,6 +161,67 @@ const posts = [
       src="https://www.youtube.com/embed/PypjHGohAHY" allowfullscreen>
       </iframe>
      `
+  },
+  {
+    title: "La curiosidad rompe el ciclo",
+    category: "Reflexiones",
+    summary: [
+      "El primer impulso cuando no tenemos mucho que hacer es hacer una actividad conocida. ¿Por qué?"
+    ],
+    key: "7",
+    date: "Agosto 11, 2019",
+    content: `<p>
+    El primer impulso cuando no tenemos mucho que hacer es hacer una actividad conocida. Creo que ese 
+    comportamiento es interesante prestarle atención.</p>
+
+    <p>Cuando haces una tarea a la que estás habituado/a, el estrés y el esfuerzo que se realiza es 
+    mínimo: el cuerpo tiende a ese estado de desinterés en el tiempo que no hay motivación para hacer 
+    una actividad más ardua. Además de la disminución de esfuerzo, hay que añadir
+    la dimensión del pensar, es decir, <b>cuando es necesario pensar qué hacer requiere plantearse mentalmente
+    un conjunto de opciones</b>. Una vez tenemos en mente esas opciones, debemos simular qué opción es la 
+    mejor, cuál requiere menos esfuerzo, cuál nos aporta más, etc. </p>
+
+    <p class='Citation'>Pensar resulta una tarea ardua.</p> 
+
+    <p>Por otro lado, <b>un panorama cierto es preferible a uno incierto</b>. Por naturaleza tendemos a huir 
+    de la incertidumbre por instinto, ya que podría matarnos en el peor de los casos. Por esa razón, 
+    cuando tenemos sobre la mesa dos opciones y una de ellas es conocida, en la mayoría de los casos 
+    escogeremos la conocida. La pregunta que surge ahora es, </p>
+
+    <h2>¿Bajo que razón elegimos la incertidumbre? </h2>
+
+    <p>Si eres de las personas que son curiosas por naturaleza, lo conocido te resultará estimulante 
+    al principio, después te aburrirá; conoces que A conduce a B, repetir el ciclo una y otra vez 
+    es una completa agonía. La razón en este caso es la <b>curiosidad</b>. </p>
+
+    <p>Una muchedumbre de nuevos estímulos son suficientes para mantener nuestro miedo, a lo desconocido, a raya… ¿o no?</p>
+
+    <p>Podemos pensar que la curiosidad es innata, pero mirando a nuestro alrededor vemos a personas que no la tienen. </p>
+   
+    <h2>La causa que inicia la curiosidad</h2>
+
+    <p>Hay una razón por la que nos levantarnos todos los días de la cama. Al igual que hay una razón por la que nos 
+    alimentamos, aunque ésta sea demasiado obvia.</br> 
+    Ya que hay un sin fin de causas para cada persona, resulta imposible describirlas todas; por ello nos centraremos en la raíz. </p>
+
+    <p>Para describir la causa madre, me gustaría partir de una premisa: <b>no estamos aislados</b>.</p>
+
+    <p>En el momento en el que nos aproximamos a la incertidumbre, crecemos como persona. <b>Todo lo que 
+    crezcamos carece de sentido si no lo compartimos</b>. </p>
+
+    <p>Por ejemplo, imaginemos que estamos aprendiendo a escribir cartas de manera formal. Lo primero 
+    que hacemos es preguntar a nuestros contactos. </br>
+    No hemos encontrado respuesta y buscamos en internet 
+    y ¡Bingo!; hemos encontrado un sitio web donde nos explican paso a paso cómo hacerlo.</p>
+
+    <p>Éste/a gran samaritano/a que ha compartido su conocimiento, tal vez tuvo que hacer el esfuerzo 
+    de aprenderlo desde cero. Ahora lo comparte, minimizando el tiempo que tiene que invertir otra persona
+    en aprenderlo. </p>
+
+    <p>Retomando la premisa: sabiendo que formamos una <b>red</b> de contactos, (entre los que se hayan 
+    familiares, amigos, conocidos y personas con las que rara vez hablamos) al mantener nuestro 
+    crecimiento latente y compartiéndolo en nuestra red, ayudamos a construir una red más fuerte. </p>
+     `
   }
 ];
 
