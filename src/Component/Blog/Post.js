@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./Post.css";
 import posts from "../../data/Blog/PostsData";
+import calendar_IMG from '../../images/Blog/calendar.png';
 
 class Post extends Component {
   constructor(props) {
@@ -23,7 +24,7 @@ class Post extends Component {
       <div className="Post">
         <h1 className="Post__title">{posts[this.state.id].title}</h1>
         <div className="Post__date">
-          <p>{posts[this.state.id].date}</p>
+          <p><img src={calendar_IMG} alt='Ilustration of one calendar' />{posts[this.state.id].date}</p>
         </div>
         {
           <div

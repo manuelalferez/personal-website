@@ -3,10 +3,16 @@
   width: 60vw;
   margin: auto;
   flex-wrap: wrap;
-  padding-top: 20vh;
+  /* padding-top: 20vh; */
+  position: relative;
+  top: 20vh;
   margin-bottom: 10vh;
   font-size: 20px;
   background: #f1f5f9;
+  padding: 5vw;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
 }
 
 h1 {
@@ -14,6 +20,12 @@ h1 {
   margin-bottom: 0.5em;
   display: flex;
   justify-content: center;
+}
+
+.Post__date img{
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
 }
 
 .Post__date {
