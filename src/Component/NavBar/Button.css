@@ -7,12 +7,13 @@
   margin: 3em;
   border-radius: 10px;
   font-size: 0.9em;
-   background: rgba(255, 255, 255, 0.322);
+  background: #f4f4f6e3;
 }
 
 .Button:hover {
   cursor: pointer;
-  background: #fd6a0181;
+  background: #ff984ff1;
+  box-shadow: 0px 2px 19px -2px rgba(0,0,0,0.75);
 }
 
 .Button:active {

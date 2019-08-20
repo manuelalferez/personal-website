@@ -64,7 +64,7 @@
   border-radius: 10px;
   padding: 1em;
   margin-top: 1em;
-  background: #fd6a016c;
+  background: #f4f4f6c2;
 }
 
 .Contacts__email p,
@@ -74,7 +74,7 @@
 
 .Contacts__email h1,
 .Contacts__telegram h1 {
-  font-size: 1.1em;
+  font-size: 1em;
   margin: 0;
 }
 
