@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Post.css";
 import posts from "../../data/Blog/PostsData";
-import calendar_IMG from '../../images/Blog/calendar.png';
+import calendar_IMG from '../../images/Blog/calendar.webp';
 
 class Post extends Component {
   constructor(props) {

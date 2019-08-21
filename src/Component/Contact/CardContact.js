@@ -2,9 +2,9 @@ import React from "react";
 import "./CardContact.css";
 import { Link } from "react-router-dom";
 
-import imageConnections from "../../images/Contact/connection.svg";
-import imageTelegram from "../../images/Contact/telegram.svg";
-import imageEmail from "../../images/Contact/mail.svg";
+import imageConnections from "../../images/Contact/connection.webp";
+import imageTelegram from "../../images/Contact/telegram.webp";
+import imageEmail from "../../images/Contact/mail.webp";
 import dataSchedule from "../../data/Contact/ContactData";
 
 function CardContact(props) {

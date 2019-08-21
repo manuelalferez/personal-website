@@ -1,6 +1,6 @@
 import React from "react";
 import "./CardHome.css";
-import profilePicture from "../../images/Home/profile.png";
+import profilePicture from "../../images/Home/profile.webp";
 import socialData from "../../data/Home/SocialData";
 import cardData from "../../data/Home/CardData";
 

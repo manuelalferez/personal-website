@@ -1,7 +1,7 @@
 import React from "react";
 import "./PageNotFound.css";
 
-import lost_IMG from "../../images/PageNotFound/lost.png";
+import lost_IMG from "../../images/PageNotFound/lost.webp";
 
 function PageNotFound(props) {
   return (
