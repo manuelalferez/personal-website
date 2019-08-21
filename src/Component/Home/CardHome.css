@@ -150,7 +150,7 @@
   .CardHome {
     width: 400px;
     height: 400px;
-    font-size: 0.8em;
+    font-size: 13px;
   }
   .Header__picture {
     height: 90px;
@@ -162,7 +162,7 @@
   .CardHome {
     width: 350px;
     height: 350px;
-    font-size: 0.7em;
+    font-size: 12px;
   }
   .Header__picture {
     height: 80px;
@@ -175,11 +175,16 @@
     width: 300px;
     height: 300px;
   }
+
+  .Header__description{
+    padding-top: 20px;
+  }
   .Header__picture {
     height: 50px;
     width: 50px;
   }
   .Bio__title {
     margin-top: 1.5em;
+    font-size: 20px;
   }
 }
