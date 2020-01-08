@@ -1,11 +1,10 @@
 const data = {
   email: {
-    weekday: "9AM 15PM 19PM",
-    weekend: '15PM'
+    monday: "10AM"
   },
   telegram: {
-    weekday: "9AM to 19PM",
-    weekend: '9AM 15PM'
+    weekday: "9AM 12PM 19PM",
+    weekend: '9AM'
   }
 };
 

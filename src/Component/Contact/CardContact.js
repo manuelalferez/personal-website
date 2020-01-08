@@ -21,12 +21,8 @@ function CardContact(props) {
           </div>
           <div className="Email__schedule">
             <p>
-              <strong>Weekday: </strong>
-              {dataSchedule.email.weekday}
-            </p>
-            <p>
-              <strong>Weekend: </strong>
-              {dataSchedule.email.weekend}
+              <strong>Monday: </strong>
+              {dataSchedule.email.monday}
             </p>
           </div>
         </div>
