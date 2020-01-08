@@ -10,12 +10,6 @@ const data = [
       path: "/blog",
       posImportImage: 1,
       alt:'Blog'
-    },
-    {
-      content: "Contact",
-      path: "/contact",
-      posImportImage: 2,
-      alt:'Contact'
     }
   ];
   

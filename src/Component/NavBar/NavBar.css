@@ -2,14 +2,15 @@
   position: absolute;
   width: 98vw; /* So there is no horizontal scroll */
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
+  height: 8vh;
 }
 
 .NavBar {
   position: relative;
   display: flex;
   position: relative;
-  margin-left: 2vw;
+  margin-right: 4vw;
 }
 
 @media (max-width: 768px) {

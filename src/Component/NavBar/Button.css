@@ -1,19 +1,16 @@
 .Button {
-  height: 50px;
-  width: 100px;
+  height: 40px;
+  width: 60px;
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin: 3em;
-  border-radius: 10px;
-  font-size: 0.9em;
-  background: #f4f4f6e3;
+  margin: 1em;
+  font-size: 1.1em;
 }
 
-.Button:hover {
+.Button:hover { 
   cursor: pointer;
-  background: #ff984ff1;
-  box-shadow: 0px 2px 19px -2px rgba(0,0,0,0.75);
+  border-bottom: 3px solid #0984e3;
+  padding-bottom: 0px;
 }
 
 .Button:active {

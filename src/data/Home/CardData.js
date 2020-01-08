@@ -1,11 +1,10 @@
 const data = {
-  greeting: "Hi! I'm Manuel Alférez Ruiz",
-  live: "I live in Jaén, Spain",
+  greeting: "Hi! I'm Manuel",
   status: "Developing | Sharing | Kaizen",
-  bioPartOne:
-    "At the moment, I am learning Front-end and English. At the same time we help grow the",
-  bioPartTwo: "community and I study computer engineering at",
-  bioPartThree: "The future ... the future is exciting."
+  little_bio: "At the moment, I am studying Computer Engineering at University "
+    + "of Jaén, Spain and I'm interested in perfecting my English. As well, I " +
+    "have studied about Frontend-end. In the coming months, I will be learning " +
+    "about productivity, human relationships and any curiosity that arises."
 };
 
 export default data;

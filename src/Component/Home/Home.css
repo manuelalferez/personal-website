@@ -1,11 +1,6 @@
 .Home {
-  height: 80vh;
   widows: 100vw;
-  background-image: url("../../images/wallpaper.webp");
-  background-repeat: no-repeat;
-  background-size: cover;
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding-top: 20vh;
 }

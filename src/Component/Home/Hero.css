@@ -1,0 +1,64 @@
+.Hero {
+    background-image: url("../../images/Home/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -15vh;
+    width: 100vw;
+    height: 92vh;
+    padding-top: 8vh;
+}
+
+.Header__picture{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.Header__description p{
+    margin-bottom: 0;
+    margin-top: .5em;
+}
+
+.Description__gretting{
+    font-size: 2em;
+    font-family: 'Source Serif Pro', sans-serif;
+}
+
+.Hero__header{
+    display: flex;
+    justify-content: center;
+}
+
+.Hero__bio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Bio__title{
+    margin-top: 4em;
+    width: 60vw;
+    font-weight: 400;
+    font-family: 'Source Serif Pro', sans-serif;
+}
+
+.Bio__description{
+    width: 60vw;
+    font-size: 1.5em;
+}
+
+.Header__description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.Header__description .Description__status{
+    font-size: 1.2em;
+}
+
+.Hero__social, .Hero__footer{
+ display: none;
+}

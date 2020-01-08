@@ -1,0 +1,60 @@
+.Contact {
+    height: 90vh;
+    padding-top: 10vh;
+}
+
+.Contact__title{
+    font-size: 2em;
+    font-family: 'Source Serif Pro', sans-serif;
+    font-weight: 400;
+}
+
+.Contact__message{
+    font-size: 1.5em;
+    width: 70vw;
+    margin-bottom: 4em;
+    margin-top: 1.5em;
+}
+
+.Email, .Telegram{
+    font-size: 1.5em;
+    display: inline;
+    font-weight: 400;
+}
+
+.Email__schedule{
+    margin-bottom: 4em;
+}
+
+.Email__schedule p, .Telegram__schedule p{
+    font-size: 1.2em;
+}
+
+.Telegram__schedule{
+    margin-bottom: 10em;
+}
+
+.Contact__description{
+    display: flex;
+    justify-content: center;
+    font-size: 1.2em;
+    font-family: 'Source Serif Pro', sans-serif;
+
+}
+
+.Contact__description a{
+    background-image: url("../../images/link.webp");
+    background-position-x: 100%;
+    background-position-y: 20%;
+    background-size: 0.6em;
+    background-repeat: no-repeat;
+    padding-right: 15px;
+    margin: 0 5px 0 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.Contact__description a:hover{
+    color: #0984e3;
+}
