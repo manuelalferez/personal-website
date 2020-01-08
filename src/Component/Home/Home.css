@@ -1,5 +1,9 @@
+html{
+  overflow-x: hidden;
+}
+
 .Home {
-  widows: 100vw;
+  width: 100vw;
   display: flex;
   align-items: center;
   flex-direction: column;

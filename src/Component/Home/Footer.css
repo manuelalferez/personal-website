@@ -1,0 +1,115 @@
+@font-face {
+    font-family: "icomoon";
+    src: url("../../fonts/icomoon.eot?s8hcxg");
+    src: url("../../fonts/icomoon.eot?s8hcxg#iefix") format("embedded-opentype"), url("../../fonts/icomoon.ttf?s8hcxg") format("truetype"), url("../../fonts/icomoon.woff?s8hcxg") format("woff"), url("../../fonts/icomoon.svg?s8hcxg#icomoon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: "icomoon" !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-instagram:before {
+    content: "\ea92";
+}
+
+.icon-twitter:before {
+    content: "\ea96";
+}
+
+.icon-github:before {
+    content: "\eab0";
+}
+
+.icon-linkedin:before {
+    content: "\eac9";
+}
+
+.icon-instagram {
+    font-size: 2em;
+    color: white;
+    text-decoration: none;
+}
+
+.icon-twitter {
+    font-size: 2em;
+    color: white;
+    text-decoration: none;
+}
+
+.icon-github {
+    font-size: 2em;
+    color: white;
+    text-decoration: none;
+}
+
+.icon-linkedin {
+    font-size: 2em;
+    color: white;
+    text-decoration: none;
+}
+
+.Footer {
+    height: 15vh;
+    width: 100%;
+    background: #2d3436;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 1.1em;
+}
+
+.Footer__social{
+    width: 98vw;
+}
+
+.Footer__social a{
+    margin: 1em;
+}
+
+.Footer a span {
+    height: 1px;
+    width: 1px;
+    position: absolute;
+    overflow: hidden;
+    top: -10px;
+}
+
+.Footer a:hover,
+.Sign a:hover {
+  color: #fd6901;
+}
+
+.Sign {
+    grid-area: Footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Sign a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+    font-family: 'Pacifico', cursive;
+    font-size: 1em;
+}
+
+.Footer__heart {
+    margin: 0 5px 0 5px;
+}

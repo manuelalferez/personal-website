@@ -1,48 +1,67 @@
 .Contact {
-    height: 90vh;
+    height: 75vh;
     padding-top: 10vh;
 }
 
-.Contact__title{
+.Contact__info {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10em;
+}
+
+.Telegram__graper, .Email__graper {
+    height: 7em;
+    padding: 1em;
+}
+
+.Telegram__graper img, .Email__graper img {
+    height: 50px;
+    width: 50px;
+}
+
+.Contact__title {
     font-size: 2em;
     font-family: 'Source Serif Pro', sans-serif;
     font-weight: 400;
 }
 
-.Contact__message{
+.Contact__message {
     font-size: 1.5em;
     width: 70vw;
     margin-bottom: 4em;
     margin-top: 1.5em;
 }
 
-.Email, .Telegram{
+.Email, .Telegram {
+    display: flex;
+    align-items: center;
+}
+
+.Email h1, .Telegram h1 {
     font-size: 1.5em;
     display: inline;
     font-weight: 400;
+    margin: 0 0 0 1em;
+
 }
 
-.Email__schedule{
+.Email__schedule {
     margin-bottom: 4em;
 }
 
-.Email__schedule p, .Telegram__schedule p{
+.Email__schedule p, .Telegram__schedule p {
     font-size: 1.2em;
+    text-indent: 4em;
 }
 
-.Telegram__schedule{
-    margin-bottom: 10em;
-}
-
-.Contact__description{
+.Contact__description {
     display: flex;
     justify-content: center;
     font-size: 1.2em;
     font-family: 'Source Serif Pro', sans-serif;
-
 }
 
-.Contact__description a{
+.Contact__description a {
     background-image: url("../../images/link.webp");
     background-position-x: 100%;
     background-position-y: 20%;
@@ -55,6 +74,6 @@
     font-weight: bold;
 }
 
-.Contact__description a:hover{
+.Contact__description a:hover {
     color: #0984e3;
 }

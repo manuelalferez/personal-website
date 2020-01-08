@@ -6,6 +6,7 @@
     width: 100vw;
     height: 92vh;
     padding-top: 8vh;
+    box-shadow: 0 0 4em 0 rgb(185, 185, 185);
 }
 
 .Header__picture{
