@@ -7,25 +7,28 @@
 }
 
 .Category__wrapper {
-  background: #f1f5f9;
+  background: #2d3436;
   margin-bottom: 30px;
   border-radius: 10px;
   padding: 20px;
-  box-shadow: 0px 2px 19px -2px rgba(0,0,0,0.75);
+  box-shadow: 0px 2px 19px -2px rgba(0, 0, 0, 0.75);
 }
 
 .Blog__post {
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 10px;
+  color: white;
 }
 
 .Post__link {
   text-decoration: none;
+  color: #fdcb6e;
 }
 
 .Post__link:hover {
   text-decoration: underline;
+  color: #ffeaa7;
 }
 
 .Blog__category {
@@ -35,7 +38,8 @@
 }
 
 .Blog__category {
-  color: #d3beae;
+  color: #dfe6e9;
+  font-family: 'Source Serif Pro', sans-serif;
 }
 
 @media (max-width: 768px) {

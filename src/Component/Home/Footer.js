@@ -5,6 +5,7 @@ import socialData from "../../data/Home/SocialData";
 function Footer(props) {
   return (
     <div className="Footer">
+      <h1>Stay connected</h1>
       <div className="Footer__social">
         {socialData.map(item => (
           <a

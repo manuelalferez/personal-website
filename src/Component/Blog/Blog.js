@@ -2,6 +2,7 @@ import React from "react";
 import "./Blog.css";
 import posts from "../../data/Blog/PostsData";
 import { Link } from "react-router-dom";
+import Footer from "../Home/Footer";
 
 const CATEGORIES = ["Libros", "Reflexiones", "Informática", "Ajedrez"];
 
@@ -54,7 +55,10 @@ function Blog(props) {
     }
   }
 
-  return <div className="Blog">{list}</div>;
+  return <div>
+    <div className="Blog">{list}</div>
+       <Footer/>
+    </div>;
 }
 
 export default Blog;
