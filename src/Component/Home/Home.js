@@ -9,8 +9,6 @@ function Home(props) {
   return (
     <div className="Home">
      <Hero/>
-     <Contact/>
-     <Footer/>
     </div>
   );
 }
