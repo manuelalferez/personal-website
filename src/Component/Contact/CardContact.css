@@ -87,6 +87,7 @@
         width: 350px;
         height: 350px;
         font-size: 12px;
+        margin-top: 0;
     }
     .CardContact__description p {
         padding-top: 10px;
