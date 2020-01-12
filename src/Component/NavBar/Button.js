@@ -6,7 +6,6 @@ function Button(props) {
   return (
     <div className="Button">
       <NavLink to={props.path}>
-        <img className="Button__image" src={props.image} alt={props.alt}/>
         {props.content}
       </NavLink>
     </div>

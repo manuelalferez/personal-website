@@ -1,19 +1,18 @@
 .Button {
-  height: 50px;
+  height: 35px;
   width: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 3em;
-  border-radius: 10px;
+  border-radius: 5px;
   font-size: 0.9em;
-  background: #f4f4f6e3;
+  background: #333333;
 }
 
 .Button:hover {
   cursor: pointer;
-  background: #ff984ff1;
-  box-shadow: 0px 2px 19px -2px rgba(0,0,0,0.75);
+  background: #444444;
 }
 
 .Button:active {
@@ -24,11 +23,12 @@
 
 .Button a {
   text-decoration: none;
-  color: black;
+  color: white;
   height: 100%;
   width: 100%;
-  text-align: center;
-  line-height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .Button__image {
