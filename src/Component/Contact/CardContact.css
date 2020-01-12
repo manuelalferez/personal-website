@@ -1,0 +1,111 @@
+.CardContact {
+    display: grid;
+    grid-template-areas: "Contact" "Description";
+    grid-template-rows: 75% 25%;
+    width: 70vw;
+    margin-top: 10vh;
+}
+
+.CardContact__description {
+    grid-area: Description;
+    padding: 1em;
+}
+
+.CardContact__description p {
+    margin: 0 1em 0 1em;
+    text-indent: 1em;
+    font-size: 0.9em;
+}
+
+.CardContact__description a {
+    margin: 0 5px 0 5px;
+    text-decoration: none;
+    color: #D5E001;
+    font-weight: bold;
+}
+
+.CardContact__description {
+    display: flex;
+    justify-content: center;
+}
+
+.CardContact__description a:hover {
+    color: #FFFF7A;
+}
+
+.CardContact__contacts {
+    grid-area: Contact;
+    padding: 2em;
+    padding-top: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.CardContact__contacts img {
+    height: 25px;
+    width: 25px;
+    margin-right: 0.5em;
+}
+
+.Contacts__email, .Contacts__telegram {
+    border-radius: 10px;
+    padding: 1em;
+    margin-top: 1em;
+    background: #2B5B49;
+    width: 30vw;
+}
+
+.Contacts__email p, .Contacts__telegram p {
+    margin: 0;
+}
+
+.Contacts__email h1, .Contacts__telegram h1 {
+    font-size: 1em;
+    margin: 0;
+}
+
+.Email, .Telegram {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+@media (max-width: 768px) {
+    .CardContact {
+        width: 400px;
+        height: 400px;
+        font-size: 0.8em;
+    }
+    .CardContact__description {
+        padding-top: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .CardContact {
+        width: 350px;
+        height: 350px;
+        font-size: 12px;
+    }
+    .CardContact__description p {
+        padding-top: 10px;
+        font-size: 12px;
+    }
+    .Contacts__email, .Contacts__telegram {
+        width: 60vw;
+    }
+}
+
+@media (max-width: 320px) {
+    .CardContact {
+        width: 300px;
+        height: 300px;
+    }
+    .CardContact__contacts {
+        padding: 0 15px 15px;
+    }
+    .Contacts__email, .Contacts__telegram {
+        width: 80vw;
+    }
+}

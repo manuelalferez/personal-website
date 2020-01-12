@@ -1,9 +1,146 @@
+  
+@font-face {
+  font-family: "icomoon";
+  src: url("../../fonts/icomoon.eot?s8hcxg");
+  src: url("../../fonts/icomoon.eot?s8hcxg#iefix") format("embedded-opentype"), url("../../fonts/icomoon.ttf?s8hcxg") format("truetype"), url("../../fonts/icomoon.woff?s8hcxg") format("woff"), url("../../fonts/icomoon.svg?s8hcxg#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-instagram:before {
+  content: "\ea92";
+}
+
+.icon-twitter:before {
+  content: "\ea96";
+}
+
+.icon-github:before {
+  content: "\eab0";
+}
+
+.icon-linkedin:before {
+  content: "\eac9";
+}
+
+.icon-instagram {
+  font-size: 2em;
+  color: white;
+  text-decoration: none;
+}
+
+.icon-twitter {
+  font-size: 2em;
+  color: white;
+  text-decoration: none;
+}
+
+.icon-twitter:hover {
+  color: #55acee;
+}
+
+.icon-linkedin:hover {
+  color: #007bb5;
+}
+
+.icon-instagram:hover {
+  color: #2C6A93;
+}
+
+.icon-github:hover {
+  color: darkgrey;
+}
+
+.icon-github {
+  font-size: 2em;
+  color: white;
+  text-decoration: none;
+}
+
+.icon-linkedin {
+  font-size: 2em;
+  color: white;
+  text-decoration: none;
+}
+
 .Home {
   height: 80vh;
   widows: 100vw;
-  background-color: #1B1B1B;
+  background-color: #87CEF5;
+  display: grid;
+  grid-template-areas: "picture-status" "description" "social";
+  grid-template-rows: 25vh 40vh 15vh;
+  padding-top: 20vh;
+  color: #365374;
+}
+
+.Picture__Status{
+  grid-area: picture-status;
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding-top: 20vh;
 }
+
+.Picture{
+  height: 150px;
+  width: 150px;
+}
+
+.Status{
+  margin-bottom: 0;
+  margin-top: .5em;
+}
+
+.Home__Description{
+  margin-top: 1em;
+  font-size: 2em;
+  width: 75vw;
+  display: flex;
+  justify-self: center;
+  flex-direction: row;
+  text-align: center;
+}
+
+.Social-graper{
+ display: flex;
+ justify-content: center;
+}
+
+.Social {
+  grid-area: social;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 40vw;
+}
+
+@media (max-width: 768px) {
+  .Home {
+    font-size: 13px;
+  }
+  .Picture{
+    height: 120px;
+    width: 120px;
+  }
+}
+
+@media (max-width: 375px) {
+  .Home__Description {
+    font-size: 1.5em;
+  }
+}
+

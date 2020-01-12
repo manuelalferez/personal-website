@@ -1,13 +1,18 @@
+html{
+  background-color: #5F62BD;
+}
+
 .Blog {
   width: 60vw;
   margin: auto;
   flex-wrap: wrap;
   padding-top: 20vh;
   margin-bottom: 10vh;
+  color: white;
 }
 
 .Category__wrapper {
-  background: #f1f5f9;
+  background: #2F305E;
   margin-bottom: 30px;
   border-radius: 10px;
   padding: 20px;
@@ -22,20 +27,16 @@
 
 .Post__link {
   text-decoration: none;
+  color: #D5E001;
 }
 
 .Post__link:hover {
-  text-decoration: underline;
+  color: #FFFF7A;
 }
 
 .Blog__category {
   margin-bottom: 0px;
   padding-bottom: 10px;
-  font-family: 'Quicksand', sans-serif;
-}
-
-.Blog__category {
-  color: #d3beae;
 }
 
 @media (max-width: 768px) {

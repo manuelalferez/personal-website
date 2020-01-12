@@ -1,11 +1,10 @@
 .Contact {
   height: 80vh;
-  widows: 100vw;
-  background-image: url("../../images/wallpaper.webp");
-  background-repeat: no-repeat;
-  background-size: cover;
+  width: 100vw;
+  background: #58B792;
   display: flex;
   align-items: center;
   flex-direction: column;
   padding-top: 20vh;
+  color: white;
 }
