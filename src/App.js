@@ -8,6 +8,7 @@ import Layout from "./Component/Layout/Layout";
 import Post from "./Component/Blog/Post";
 import GA from "./GoogleAnalytics";
 import ScrollToTop from "./Component/ScrollToTop";
+import Work from "./Component/Work/Work";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route exact path="/" component={Home} />
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/blog" component={Blog} />
+            <Route exact path="/work" component={Work} />
             <Route exact path="/blog/post/:id" component={Post} />
             <Route component={PageNotFound} />
           </Switch>

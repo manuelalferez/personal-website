@@ -1,0 +1,18 @@
+.Work{
+    background-color: #F7B561;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding-top: 20vh;
+    color: white;
+}
+
+.Work__graper{
+    background-color: #041624;
+    height: 200px;
+    width: 200px;
+    margin: 1em;
+    border-radius: 5px;
+    padding: 10px;
+}
