@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
-import profilePicture from "../../images/Home/job.svg";
+import profilePicture from "../../images/Home/avatar1.svg";
+import workingGif from "../../images/Home/working.gif";
 import data from "../../data/Home/data";
 import socialData from "../../data/Home/SocialData";
 
@@ -17,7 +18,14 @@ function Home(props) {
         <p className="Status">{data.status}</p>
       </div>
 
-      <p className="Home__Description">{data.description}</p>
+      <div className="Home__Description">
+        <p>{data.description}</p>
+        <img
+          className="Working"
+          src={workingGif}
+          alt="Creating gif"
+        />
+      </div>
 
       <div className="Social-graper">
         <div className="Social">
