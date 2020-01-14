@@ -1,6 +1,6 @@
-import homeIcon from "../images/NavBar/home.webp";
-import blogIcon from "../images/NavBar/blog.webp";
-import contactIcon from "../images/NavBar/contact.webp";
+import webIcon from "../images/Work/0.gif";
+import programmingLanguages from "../images/Work/1.gif";
+import doing from "../images/Work/2.gif";
 
-const data = [homeIcon, blogIcon, contactIcon];
+const data = [webIcon, programmingLanguages, doing];
 export default data;

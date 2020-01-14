@@ -1,21 +1,21 @@
 const work = [
     {
+      category: "Doing",
+      key: "2",
+      items: ["C++", "Python"],
+      classImage: "Work__doingImage"
+    },
+    {
       category: "Web",
-      key: "1",
+      key: "0",
       items: ["HTML", "CSS", "JavaScript", "React"],
-      status: "Completed"
+      classImage: "Work__webImage"
     },
     {
       category: "Progamming languages",
-      key: "2",
+      key: "1",
       items: ["JavaScript", "Java"],
-      status: "Completed"
-    },
-    {
-      category: "Doing",
-      key: "3",
-      items: ["C++", "Python"],
-      status: "Learning"
+      classImage: "Work__programmingImage"
     }
   ];
   

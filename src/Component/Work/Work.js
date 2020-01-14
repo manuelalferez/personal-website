@@ -1,6 +1,7 @@
 import React from "react";
 import "./Work.css";
 import works from "../../data/Work/WordData";
+import images from "../Imports";
 
 function Work(props) {
     let list = [];
@@ -11,12 +12,14 @@ function Work(props) {
                 <p className="Work__title">
                     {work.category}
                 </p>
-                <ul>
-                    {work.items.map((item) => {
-                        return <li>{item}</li>
-                    })}
-                </ul>
-                <p className="Work__status">{work.status}</p>
+                <div className="Work__content">
+                    <ul>
+                        {work.items.map((item) => {
+                            return <li>{item}</li>
+                        })}
+                    </ul>
+                    <img className={work.classImage} src={images[work.key]} />
+                </div>
             </div >
         );
     }
