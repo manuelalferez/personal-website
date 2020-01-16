@@ -164,6 +164,7 @@
   @media (max-width: 375px) {
     .Home {
       grid-template-rows: 20vh 50vh 10vh;
+      padding-top: 25vh;
     }
     .Picture {
       height: 85px;
@@ -176,7 +177,7 @@
       width: 70vw;
     }
     .Working{
-      height: 64px;
-      width: 170px;
+      height: 75px;
+      width: 200px;
     }
   }

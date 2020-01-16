@@ -56,9 +56,16 @@
     width: 80px;
     margin: 1em;
   }
-  .Button__image {
-    height: 1.5em;
-    width: 1.5em;
+  .Button a {
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 320px) {
+  .Button {
+    height: 30px;
+    width: 70px;
+    margin: .9em;
   }
   .Button a {
     line-height: 40px;

@@ -1,6 +1,6 @@
 .NavBarContainer {
   position: absolute;
-  width: 98vw; /* So there is no horizontal scroll */
+  width: 100vw; /* So there is no horizontal scroll */
   display: flex;
   justify-content: center;
 }
@@ -16,4 +16,17 @@
   .NavBarContainer {
     font-size: 0.8em;
   }
+}
+
+@media (max-width: 375px) {
+  .NavBar {
+    width: 70vw;
+    justify-content: center;
+  }
+  .NavBar{
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 320px) {
 }

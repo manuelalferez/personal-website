@@ -53,3 +53,37 @@
     height: 160px;
     margin-left: 40px;
 }
+
+@media (max-width: 768px) {
+    .Work__graper {
+        width: 45vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .Work__graper {
+        width: 85vw;
+    }
+}
+
+@media (max-width: 320px) {
+.Work__graper {
+    width: 90vw;
+    margin-left: 0;
+    margin-right: 0;
+}
+.Work__content img {
+    width: 180px;
+    height: 120px;
+}
+.Work__content .Work__webImage {
+    width: 140px;
+    height: 140px;
+    margin-left: 40px;
+}
+
+.Work__content .Work__programmingImage {
+    width: 170px;
+    height: 110px;
+}
+}

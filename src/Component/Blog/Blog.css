@@ -45,3 +45,9 @@ html{
     padding-top: 15vh;
   }
 }
+@media (max-width: 320px) {
+  .Blog {
+    width: 90vw;
+    padding-top: 25vh;
+  }
+}
