@@ -1,31 +1,32 @@
-.Post {
-  width: 60vw;
-  margin: auto;
-  flex-wrap: wrap;
-  position: relative;
-  top: 20vh;
-  margin-bottom: 10vh;
-  font-size: 20px;
-  background: #f1f5f9;
-  padding: 5vw;
-  box-shadow: 0px 2px 19px -2px rgba(0,0,0,0.75);
-  border-radius: 5px;
+.Post_graper {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30vh;
+  background: #F5EDDD;
 }
 
-h1,h2{
+.Post {
+  width: 60vw;
+  flex-wrap: wrap;
+  position: relative;
+  top: 10vh;
+  font-size: 20px;
+  background: #F5EDDD;
+  padding: 5vw;
+}
+
+h1, h2 {
   font-family: 'Quicksand', sans-serif;
 }
 
 h1 {
   margin-top: 0;
-  margin-bottom: 0.5em;
+  margin-bottom: 2em;
   display: flex;
   justify-content: center;
-  
 }
 
-
-.Post__date img{
+.Post__date img {
   height: 15px;
   width: 15px;
   margin-right: 5px;
@@ -38,16 +39,16 @@ h1 {
 }
 
 .Post p {
-  text-align: justify;
   margin-bottom: 30px;
 }
 
 .Post a {
-  text-decoration: underline;
+  text-decoration: none;
+  color: blue;
 }
 
 .Post a:hover {
-  color: #5F61BD;
+  text-decoration: underline;
 }
 
 .Citation {
@@ -55,7 +56,7 @@ h1 {
   padding: 10px;
   padding-left: 15px;
   font-style: italic;
-  background: rgb(234, 238, 241);
+  background: rgb(230, 222, 207);
 }
 
 @media (max-width: 768px) {
@@ -71,7 +72,8 @@ h1 {
 @media (max-width: 480px) {
   .Post {
     font-size: 16px;
-    padding-top: 15vh;
+    padding-top: 10vh;
+    top: 10vh;
   }
   iframe {
     width: 319px;
@@ -79,10 +81,15 @@ h1 {
   }
 }
 
+@media (max-width: 375px) {
+  .Post {
+    top: 20vh;
+  }
+}
+
 @media (max-width: 320px) {
   .Post {
     font-size: 16px;
-    padding-top: 15vh;
   }
   iframe {
     width: 240px;

@@ -1,7 +1,6 @@
 import React from "react";
 import "./Work.css";
 import works from "../../data/Work/WordData";
-import images from "../Imports";
 
 function Work(props) {
     let list = [];
@@ -18,7 +17,6 @@ function Work(props) {
                             return <li>{item}</li>
                         })}
                     </ul>
-                    <img className={work.classImage} src={images[work.key]} />
                 </div>
             </div >
         );

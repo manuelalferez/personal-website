@@ -1,6 +1,5 @@
 import React from "react";
 import Button from "./Button";
-import images from "../Imports";
 import "./NavBar.css";
 import navBarData from "../../data/NavBar/NavBarData";
 
@@ -12,7 +11,6 @@ function NavBar(props) {
           <Button
             content={item.content}
             path={item.path}
-            image={images[item.posImportImage]}
             key={item.path}
             alt={item.alt}
           />

@@ -1,17 +1,16 @@
-html{
-  background-color: #5F62BD;
-}
-
 .Blog {
-  width: 60vw;
   margin: auto;
   flex-wrap: wrap;
   padding-top: 20vh;
-  margin-bottom: 10vh;
+  padding-bottom: 10vh;
   color: white;
+  background-color: #5F62BD;
+  display: flex;
+  justify-content: center;
 }
 
 .Category__wrapper {
+  width: 60vw;
   background: #2F305E;
   margin-bottom: 30px;
   border-radius: 10px;
@@ -20,6 +19,7 @@ html{
 }
 
 .Blog__post {
+  width: 60vw;
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 10px;
@@ -41,13 +41,11 @@ html{
 
 @media (max-width: 768px) {
   .Blog {
-    width: 90vw;
     padding-top: 15vh;
   }
 }
 @media (max-width: 320px) {
   .Blog {
-    width: 90vw;
     padding-top: 25vh;
   }
 }

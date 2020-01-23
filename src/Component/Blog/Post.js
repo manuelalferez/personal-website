@@ -21,17 +21,20 @@ class Post extends Component {
   }
   render() {
     return (
-      <div className="Post">
-        <h1 className="Post__title">{posts[this.state.id].title}</h1>
-        <div className="Post__date">
-          <p><img src={calendar_IMG} alt='Ilustration of one calendar' />{posts[this.state.id].date}</p>
+      <div className="Post_graper">
+        <div className="Post">
+          <h1 className="Post__title">{posts[this.state.id].title}</h1>
+          <div className="Post__date">
+            <p><img src={calendar_IMG} alt='Ilustration of one calendar' />{posts[this.state.id].date}</p>
+          </div>
+          {
+            <div
+              dangerouslySetInnerHTML={{ __html: posts[this.state.id].content }}
+            />
+          }
         </div>
-        {
-          <div
-            dangerouslySetInnerHTML={{ __html: posts[this.state.id].content }}
-          />
-        }
       </div>
+
     );
   }
 }

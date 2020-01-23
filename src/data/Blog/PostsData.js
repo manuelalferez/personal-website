@@ -231,8 +231,8 @@ const posts = [
     date: "Enero 16, 2020",
     content: `<p class='Citation'>Es imposible e incluso contraproducente que alguien trate de innovar una tarea 
     mientras le pedimos que sea eficiente realizándola.</br>
-    <b><a href="https://www.goodreads.com/book/show/12524490-innovar-para-ganar" target="_blank" 
-    rel="noopener noreferrer">Innovar para ganar" (2011)</a></b>
+    <a href="https://www.goodreads.com/book/show/12524490-innovar-para-ganar" target="_blank" 
+    rel="noopener noreferrer">Innovar para ganar" (2011)</a>
     </p>
     
     <p>La perfección aplicada a cada tarea que realizamos tiene un coste. Esto lo podemos ver 
