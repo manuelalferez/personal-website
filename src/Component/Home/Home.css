@@ -36,15 +36,9 @@
     content: "\eac9";
   }
 
-  .icon-instagram {
+  .icon-instagram, .icon-twitter, .icon-github, .icon-linkedin {
     font-size: 2em;
-    color: white;
-    text-decoration: none;
-  }
-
-  .icon-twitter {
-    font-size: 2em;
-    color: white;
+    color: black;
     text-decoration: none;
   }
 
@@ -64,27 +58,15 @@
     color: darkgrey;
   }
 
-  .icon-github {
-    font-size: 2em;
-    color: white;
-    text-decoration: none;
-  }
-
-  .icon-linkedin {
-    font-size: 2em;
-    color: white;
-    text-decoration: none;
-  }
-
   .Home {
     height: 80vh;
     widows: 100vw;
-    background-color: #87CEF5;
+    background-color: #FFFEFC;
     display: grid;
     grid-template-areas: "picture-status" "description" "social";
     grid-template-rows: 25vh 45vh 10vh;
     padding-top: 20vh;
-    color: #365374;
+    color: black;
   }
 
   .Picture__Status {

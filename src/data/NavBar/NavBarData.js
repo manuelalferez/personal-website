@@ -14,11 +14,11 @@ const data = [
     path: "/contact",
     alt: 'Contact'
   },
-  {
+ /* {
     content: "Work",
     path: "/work",
     alt: 'Work'
-  }
+  }*/
 ];
 
 export default data;
