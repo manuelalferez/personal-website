@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 
 const CATEGORIES = ["Libros", "Reflexiones", "Informática", "Ajedrez"];
 
+
 function Blog(props) {
   let list = [];
   let counter; //Detect if there is a post in a category
@@ -24,27 +25,40 @@ function Blog(props) {
     for (const post of posts) {
       if (post.category === category) {
         counter++;
-        list_content.push(
-          <p key={post.key} className="Blog__post">
-            <b>
-              <Link to={`/blog/post/id=${post.key}`} className='Post__link'>{post.title}</Link> -{" "}
-            </b>{" "}
-            {post.summary}
-          </p>
-        );
+        if (post.category === "Blog privado") {
+          list_content.push(
+            <p key={post.key} className="Blog__post">
+              <b>
+                <a href={post.url} className='Post__link' target="_blank"
+                  rel="noopener noreferrer">{post.title}</a> -{" "}
+              </b>{" "}
+              {post.summary}
+            </p>
+          );
+        } else {
+          list_content.push(
+            <p key={post.key} className="Blog__post">
+              <b>
+                <Link to={`/blog/post/id=${post.key}`} className='Post__link'>{post.title}</Link> -{" "}
+              </b>{" "}
+              {post.summary}
+            </p>
+          );
+        }
+
       }
     }
 
     if (!counter) {
       list.push(
-          <div className="Category__wrapper">
-            {category_wrapper}
-            <p className="Category__list Blog__post">
-             Todavía no hay posts para esta categoría
+        <div className="Category__wrapper">
+          {category_wrapper}
+          <p className="Category__list Blog__post">
+            Todavía no hay posts para esta categoría
             </p>
-          </div>
-        );
-    }else{
+        </div>
+      );
+    } else {
       list.push(
         <div className="Category__wrapper">
           {category_wrapper}
