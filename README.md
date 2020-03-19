@@ -60,4 +60,13 @@
 ### Improve documentation
  - [ ] Create `CONTRIBUTING.md` file
  - [ ] Document React components in the `README.md`
- - [ ] Create and link `LICENSE.md`
+
+## LICENSE
+[GNU General Public License v3.0](https://github.com/manuelalferez/personal-website/blob/master/LICENSE)
+
+### Permissions
+-   Commercial use
+-   Modification
+-   Distribution
+-   Patent use
+-   Private use
