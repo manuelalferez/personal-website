@@ -12,27 +12,6 @@
 <br />
 
 <div align="center">
-  <!-- Build Status -->
-  <a href="https://travis-ci.org/choojs/choo">
-    <img src="https://img.shields.io/travis/choojs/choo/master.svg?style=flat-square"
-      alt="Build Status" />
-  </a>
-  <!-- Standard -->
-  <a href="https://standardjs.com">
-    <img src="https://img.shields.io/badge/style-minimalist-blue.svg?style=flat-square"
-      alt="API stability" />
-  </a>
-</div>
-
-<div align="center">
-  <h3>
-    <a href="https://manuelalferez.com">
-      Website
-    </a>
-  </h3>
-</div>
-
-<div align="center">
   <sub>Built with ❤︎ by
   <a href="https://twitter.com/manuelalferez">Manuel Alférez</a> and
   <a href="https://github.com/manuelalferez/personal-website/graphs/contributors">
