@@ -42,7 +42,7 @@
 
   .icon-instagram, .icon-twitter, .icon-github, .icon-linkedin, .icon-telegram {
     font-size: 2em;
-    color: black;
+    color: white;
     text-decoration: none;
   }
 
@@ -69,12 +69,12 @@
   .Home {
     height: 80vh;
     widows: 100vw;
-    background-color: #FFFEFC;
+    background-color: #1C1C1C;
     display: grid;
     grid-template-areas: "picture-status" "description" "social";
     grid-template-rows: 25vh 45vh 10vh;
     padding-top: 20vh;
-    color: black;
+    color: white;
   }
 
   .Picture__Status {
