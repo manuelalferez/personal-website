@@ -1,26 +1,28 @@
 {
   "files": {
-    "main.css": "/manuelalferez/pagina-contacto/static/css/main.3018a229.chunk.css",
-    "main.js": "/manuelalferez/pagina-contacto/static/js/main.79d0028a.chunk.js",
-    "main.js.map": "/manuelalferez/pagina-contacto/static/js/main.79d0028a.chunk.js.map",
-    "runtime~main.js": "/manuelalferez/pagina-contacto/static/js/runtime~main.175d3a37.js",
-    "runtime~main.js.map": "/manuelalferez/pagina-contacto/static/js/runtime~main.175d3a37.js.map",
-    "static/js/2.1dcfd3d8.chunk.js": "/manuelalferez/pagina-contacto/static/js/2.1dcfd3d8.chunk.js",
-    "static/js/2.1dcfd3d8.chunk.js.map": "/manuelalferez/pagina-contacto/static/js/2.1dcfd3d8.chunk.js.map",
-    "index.html": "/manuelalferez/pagina-contacto/index.html",
-    "precache-manifest.16f17583730c8074e5a1e199beff95a1.js": "/manuelalferez/pagina-contacto/precache-manifest.16f17583730c8074e5a1e199beff95a1.js",
-    "service-worker.js": "/manuelalferez/pagina-contacto/service-worker.js",
-    "static/css/main.3018a229.chunk.css.map": "/manuelalferez/pagina-contacto/static/css/main.3018a229.chunk.css.map",
-    "static/media/blog.svg": "/manuelalferez/pagina-contacto/static/media/blog.fa1e77e4.svg",
-    "static/media/connection.svg": "/manuelalferez/pagina-contacto/static/media/connection.84f38825.svg",
-    "static/media/contact.svg": "/manuelalferez/pagina-contacto/static/media/contact.0b722aa6.svg",
-    "static/media/home.svg": "/manuelalferez/pagina-contacto/static/media/home.bf04ee28.svg",
-    "static/media/CardHome.css": "/manuelalferez/pagina-contacto/static/media/icomoon.973b8040.woff",
-    "static/media/CardContact.css": "/manuelalferez/pagina-contacto/static/media/link.f76d6e91.svg",
-    "static/media/mail.svg": "/manuelalferez/pagina-contacto/static/media/mail.6d5a67a0.svg",
-    "static/media/new.svg": "/manuelalferez/pagina-contacto/static/media/new.c0cd23ce.svg",
-    "static/media/profile.png": "/manuelalferez/pagina-contacto/static/media/profile.745b1454.png",
-    "static/media/telegram.svg": "/manuelalferez/pagina-contacto/static/media/telegram.92cab198.svg",
-    "static/media/Contact.css": "/manuelalferez/pagina-contacto/static/media/wallpaper.daeddf3c.jpg"
-  }
+    "main.css": "/static/css/main.5bc74637.chunk.css",
+    "main.js": "/static/js/main.330e2202.chunk.js",
+    "main.js.map": "/static/js/main.330e2202.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b3f9b682.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b3f9b682.js.map",
+    "static/js/2.366a3ed0.chunk.js": "/static/js/2.366a3ed0.chunk.js",
+    "static/js/2.366a3ed0.chunk.js.map": "/static/js/2.366a3ed0.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.033c42be3a152b75dc0b414dee53a775.js": "/precache-manifest.033c42be3a152b75dc0b414dee53a775.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.5bc74637.chunk.css.map": "/static/css/main.5bc74637.chunk.css.map",
+    "static/js/2.366a3ed0.chunk.js.LICENSE": "/static/js/2.366a3ed0.chunk.js.LICENSE",
+    "static/media/avatar.webp": "/static/media/avatar.7564ef06.webp",
+    "static/media/calendar.webp": "/static/media/calendar.9e8f557d.webp",
+    "static/media/gmail.webp": "/static/media/gmail.1ae30aec.webp",
+    "static/media/Home.css": "/static/media/icomoon.ccb4f598.woff",
+    "static/media/lost.webp": "/static/media/lost.6e81342b.webp",
+    "static/media/telegram.webp": "/static/media/telegram.6a3275a9.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b3f9b682.js",
+    "static/js/2.366a3ed0.chunk.js",
+    "static/css/main.5bc74637.chunk.css",
+    "static/js/main.330e2202.chunk.js"
+  ]
 }
