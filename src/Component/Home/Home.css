@@ -36,7 +36,11 @@
     content: "\eac9";
   }
 
-  .icon-instagram, .icon-twitter, .icon-github, .icon-linkedin {
+  .icon-telegram:before{
+    content: "\ea95";
+  }
+
+  .icon-instagram, .icon-twitter, .icon-github, .icon-linkedin, .icon-telegram {
     font-size: 2em;
     color: black;
     text-decoration: none;
@@ -56,6 +60,10 @@
 
   .icon-github:hover {
     color: darkgrey;
+  }
+
+  .icon-telegram:hover {
+    color:#0088cc;
   }
 
   .Home {
