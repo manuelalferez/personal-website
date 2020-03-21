@@ -24,7 +24,13 @@ const data = [
       key: 5,
       dir: "https://www.linkedin.com/in/manuelalferez",
       className: "icon-linkedin"
+    },
+    {
+      key: 6,
+      dir: "https://lumberando.web.app/",
+      className: "icon-quill"
     }
+    
   ];
   
   export default data;
