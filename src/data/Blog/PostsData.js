@@ -5,8 +5,7 @@ const posts = [
     summary: [
       "Cuando compartimos nuestro e-mail por internet es muy importante hacerlo de manera segura. Usando una forma muy simple evitamos recibir spam y correos indeseados."
     ],
-    key: "1",
-    date: "Junio 02, 2019",
+    key: "1"
   },
   {
     title: "Blog sobre ajedrez",

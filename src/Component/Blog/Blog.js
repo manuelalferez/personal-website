@@ -25,17 +25,6 @@ function Blog(props) {
     for (const post of posts) {
       if (post.category === category) {
         counter++;
-        if (post.category === "Blog privado") {
-          list_content.push(
-            <p key={post.key} className="Blog__post">
-              <b>
-                <a href={post.url} className='Post__link' target="_blank"
-                  rel="noopener noreferrer">{post.title}</a> -{" "}
-              </b>{" "}
-              {post.summary}
-            </p>
-          );
-        } else {
           list_content.push(
             <p key={post.key} className="Blog__post">
               <b>
@@ -44,8 +33,6 @@ function Blog(props) {
               {post.summary}
             </p>
           );
-        }
-
       }
     }
 
