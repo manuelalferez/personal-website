@@ -41,6 +41,11 @@ Form {
     background-color: rgb(230, 228, 228);
 }
 
+.Form__banner {
+    color: rgb(53, 53, 53);
+    font-size: .7em;
+}
+
 .Form input:focus {
     outline: none;
 }
