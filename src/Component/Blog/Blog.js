@@ -39,7 +39,7 @@ function Blog(props) {
           list_content.push(
             <p key={post.key} className="Blog__post">
               <b>
-                <Link to={`/blog/post/id=${post.key}`} className='Post__link'>{post.title}</Link> -{" "}
+                <Link to={`/blog/post?id=${post.key}`} className='Post__link'>{post.title}</Link> -{" "}
               </b>{" "}
               {post.summary}
             </p>
