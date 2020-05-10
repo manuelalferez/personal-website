@@ -8,8 +8,10 @@ function Contact(props) {
         <p className="Form__title">Send me a message 😊</p>
         <label htmlFor="name">Name</label>
         <input type="text" name="name" />
+        <label htmlFor="email">Email</label>
+        <input type="email" className="form-control" aria-describedby="emailHelp" />
         <label htmlFor="message" >Message</label>
-        <textarea type="message" name="message" className="Form__message"/>
+        <textarea type="message" name="message" className="Form__message" />
         <button type="submit" className="Form__send">Send</button>
       </form>
     </div>
