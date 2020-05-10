@@ -1,13 +1,15 @@
 body {
-  margin: 0;
-  font-family: 'Ubuntu', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
+
 /*MEADIA QUERIES*/
+
 @media (max-width: 768px) {
-  .Home {
-    height: 80vh;
-  }
+    .Home {
+        height: 80vh;
+    }
 }

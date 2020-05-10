@@ -1,98 +1,118 @@
 .Post_graper {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 30vh;
-  background: #F5EDDD;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30vh;
+    background: #FFFFFF;
 }
 
 .Post {
-  width: 60vw;
-  flex-wrap: wrap;
-  position: relative;
-  top: 10vh;
-  font-size: 20px;
-  background: #F5EDDD;
-  padding: 5vw;
+    width: 60vw;
+    flex-wrap: wrap;
+    position: relative;
+    top: 10vh;
+    font-size: 20px;
+    background: #FFFFFF;
+    padding: 5vw;
 }
 
-h1, h2 {
-  font-family: 'Quicksand', sans-serif;
+h1,
+h2 {
+    font-family: 'Inter', sans-serif;
 }
 
 h1 {
-  margin-top: 0;
-  margin-bottom: 2em;
-  display: flex;
-  justify-content: center;
+    margin-top: 0;
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    margin-top: 2em;
 }
 
 .Post__date img {
-  height: 15px;
-  width: 15px;
-  margin-right: 5px;
-}
-
-.Post__date {
-  font-size: 0.6em;
-  margin-bottom: 4em;
-  color: #757575;
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
 }
 
 .Post p {
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .Post a {
-  text-decoration: none;
-  color: blue;
+    color: #443e35;
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-style: initial;
+    text-decoration-color: #f2930d;
 }
 
 .Post a:hover {
-  text-decoration: underline;
+    color: #f2930d;
 }
 
-.Citation {
-  border-left: 4px solid black;
-  padding: 10px;
-  padding-left: 15px;
-  font-style: italic;
-  background: rgb(230, 222, 207);
+pre code {
+    font-size: 16px;
+    color: white;
+    background: black;
+    padding: 10px;
+    border-radius: 5px;
+    padding-left: 20px;
+    width: 60vw;
+    font-family: 'DM Mono', monospace;
+}
+
+blockquote {
+    border-left: 4px solid #CDE7B0;
+    padding-left: .4em;
+    margin-left: 1em;
+}
+
+code {
+    font-size: 16px;
+    color: red;
+    background: #f2930d27;
+    padding: 2px;
+    border-radius: 5px;
+    font-family: 'DM Mono', monospace;
 }
 
 @media (max-width: 768px) {
-  .Post {
-    width: 90vw;
-  }
-  iframe {
-    width: 479px;
-    height: 360px;
-  }
+    .Post {
+        width: 90vw;
+    }
+    iframe {
+        width: 479px;
+        height: 360px;
+    }
 }
 
 @media (max-width: 480px) {
-  .Post {
-    font-size: 16px;
-    padding-top: 10vh;
-    top: 10vh;
-  }
-  iframe {
-    width: 319px;
-    height: 240px;
-  }
+    .Post {
+        font-size: 16px;
+        padding-top: 10vh;
+        top: 10vh;
+    }
+    iframe {
+        width: 319px;
+        height: 240px;
+    }
 }
 
 @media (max-width: 375px) {
-  .Post {
-    top: 20vh;
-  }
+    .Post {
+        top: 20vh;
+    }
 }
 
 @media (max-width: 320px) {
-  .Post {
-    font-size: 16px;
-  }
-  iframe {
-    width: 240px;
-    height: 180px;
-  }
+    .Post {
+        font-size: 16px;
+    }
+    iframe {
+        width: 240px;
+        height: 180px;
+    }
 }
