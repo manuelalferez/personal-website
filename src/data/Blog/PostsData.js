@@ -2,38 +2,15 @@ const posts = [
   {
     title: "¿Qué es [at] y [dot]?",
     category: "Informática",
-    summary: [
-      "Cuando compartimos nuestro e-mail por internet es muy importante hacerlo de manera segura. Usando una forma muy simple evitamos recibir spam y correos indeseados."
-    ],
+    summary: 
+      "Cuando compartimos nuestro e-mail por internet es muy importante hacerlo de manera segura. Usando una forma muy simple evitamos recibir spam y correos indeseados.",
     key: "1"
   },
   {
     title: "Blog sobre ajedrez",
     category: "Ajedrez",
-    summary: ["Bienvenida y objetivos."],
-    key: "2",
-    date: "Agosto 07, 2017 | Agosto 06, 2019",
-    content: `<p>
-    La razón de ser de este blog será publicar y comentar las partidas de ajedrez 
-    que voy jugando a través de la plataforma de <a href='https://www.chess.com/' alt='Página web 
-    de ajedrez' target='_blank'>chess.com</a>.</p>
-
-    <h2>Historia del blog</h2>
-
-    <p>En el verano de 2017, estaba aprendiendo programación para la web (<i>HTML y CSS</i>), y como tenía ganas de  
-    compartir algo decidí que un blog sería una buena opción. Mi conocimiento en Web seguía siendo muy 
-    escueto, por ello escogí la plataforma que ofrecía <b>blogger</b>.</p>
-
-    <p>Lo primero que encontré para subir fue mi afición por el ajedrez; no perdí el tiempo y empecé a 
-    grabar y comentar las partidas.</p> 
-
-    <p>He mantenido todas las descripciones de las partidas lo menos alteradas posible, manteniendo 
-    así la esencia de la historia. </p>
-
-    <p>Podrás identificar las cuatro partidas que jugué en ese verano como <i>‘Primera, segunda, tercera y cuarta partida comentada’.</i> </p>
-
-    <p>¡A disfrutar!</p>
-     `
+    summary: "Bienvenida y objetivos.",
+    key: "2"
   },
   {
     title: "manuelalferez - Aswin2910",
