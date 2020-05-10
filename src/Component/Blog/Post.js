@@ -25,10 +25,14 @@ class Post extends Component {
 
   render() {
     return (
-      <Markdown
-        source={this.state.post}
-        escapeHtml={false}
-      />
+      <div className="Post_graper">
+        <div className="Post">
+            <Markdown
+              source={this.state.post}
+              escapeHtml={false}
+            />
+        </div>
+      </div>
     )
   }
 }
