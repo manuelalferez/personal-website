@@ -54,7 +54,6 @@
       font-size: 2em;
       color: black;
       text-decoration: none;
-      box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
       padding: .2em;
       border-radius: 5px;
   }
@@ -185,7 +184,7 @@
           font-size: 1.5em;
       }
       .Social {
-          width: 70vw;
+          width: 80vw;
       }
       .Working {
           height: 75px;
