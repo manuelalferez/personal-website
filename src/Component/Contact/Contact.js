@@ -1,11 +1,17 @@
 import React from "react";
 import "./Contact.css";
-import CardContact from "./CardContact";
 
 function Contact(props) {
   return (
     <div className="Contact">
-      <CardContact />
+      <form action="https://contactform.dk/manuelalferezruiz@gmail.com" className="Form">
+        <p className="Form__title">Send me a message 😊</p>
+        <label htmlFor="name">Name</label>
+        <input type="text" name="name" />
+        <label htmlFor="message" >Message</label>
+        <textarea type="message" name="message" className="Form__message"/>
+        <button type="submit" className="Form__send">Send</button>
+      </form>
     </div>
   );
 }
