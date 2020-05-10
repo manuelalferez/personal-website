@@ -2,16 +2,16 @@
     display: flex;
     justify-content: center;
     padding-bottom: 30vh;
-    background: #FFFFFF;
+    background-color: rgb(236, 235, 235);
 }
 
 .Post {
     width: 60vw;
     flex-wrap: wrap;
     position: relative;
-    top: 10vh;
+    top: 11vh;
     font-size: 20px;
-    background: #FFFFFF;
+    background-color: rgb(236, 235, 235);
     padding: 5vw;
 }
 

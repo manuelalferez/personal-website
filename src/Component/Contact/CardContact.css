@@ -18,10 +18,11 @@
 }
 
 .CardContact__description a {
-    margin: 0 5px 0 5px;
-    text-decoration: none;
-    color: #D5E001;
-    font-weight: bold;
+    color: #443e35;
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-style: initial;
+    text-decoration-color: #f2930d;
 }
 
 .CardContact__description {
@@ -30,7 +31,7 @@
 }
 
 .CardContact__description a:hover {
-    color: #FFFF7A;
+    color: #f2930d;
 }
 
 .CardContact__contacts {
@@ -48,24 +49,28 @@
     margin-right: 0.5em;
 }
 
-.Contacts__email, .Contacts__telegram {
+.Contacts__email,
+.Contacts__telegram {
     border-radius: 10px;
     padding: 1em;
     margin-top: 1em;
-    background: #2B5B49;
     width: 30vw;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
 }
 
-.Contacts__email p, .Contacts__telegram p {
+.Contacts__email p,
+.Contacts__telegram p {
     margin: 0;
 }
 
-.Contacts__email h1, .Contacts__telegram h1 {
+.Contacts__email h1,
+.Contacts__telegram h1 {
     font-size: 1em;
     margin: 0;
 }
 
-.Email, .Telegram {
+.Email,
+.Telegram {
     display: flex;
     align-items: center;
     margin-bottom: 1em;
@@ -93,7 +98,8 @@
         padding-top: 10px;
         font-size: 12px;
     }
-    .Contacts__email, .Contacts__telegram {
+    .Contacts__email,
+    .Contacts__telegram {
         width: 60vw;
     }
 }
@@ -106,7 +112,8 @@
     .CardContact__contacts {
         padding: 0 15px 15px;
     }
-    .Contacts__email, .Contacts__telegram {
+    .Contacts__email,
+    .Contacts__telegram {
         width: 80vw;
     }
 }

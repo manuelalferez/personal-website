@@ -1,10 +1,10 @@
 .Contact {
-  height: 80vh;
-  width: 100vw;
-  background: #58B792;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding-top: 20vh;
-  color: white;
+    height: 80vh;
+    width: 100vw;
+    background-color: rgb(236, 235, 235);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20vh;
+    color: black;
 }
