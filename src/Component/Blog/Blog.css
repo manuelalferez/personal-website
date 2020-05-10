@@ -1,51 +1,54 @@
 .Blog {
-  margin: auto;
-  flex-wrap: wrap;
-  padding-top: 20vh;
-  padding-bottom: 10vh;
-  color: white;
-  background-color: #5F62BD;
-  display: flex;
-  justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    padding-top: 20vh;
+    padding-bottom: 10vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
 }
 
 .Category__wrapper {
-  width: 60vw;
-  background: #2F305E;
-  margin-bottom: 30px;
-  border-radius: 10px;
-  padding: 20px;
-  box-shadow: 0px 2px 19px -2px rgba(0,0,0,0.75);
+    font-size: 20px;
+    width: 60vw;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 2px 19px -2px rgba(32, 32, 32, 0.75);
 }
 
 .Blog__post {
-  width: 60vw;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding-top: 10px;
+    width: 60vw;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 10px;
 }
 
 .Post__link {
-  text-decoration: none;
-  color: #D5E001;
+    color: #443e35;
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-style: initial;
+    text-decoration-color: #f2930d;
 }
 
 .Post__link:hover {
-  color: #FFFF7A;
+    color: #f2930d;
 }
 
 .Blog__category {
-  margin-bottom: 0px;
-  padding-bottom: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
 }
 
 @media (max-width: 768px) {
-  .Blog {
-    padding-top: 15vh;
-  }
+    .Blog {
+        padding-top: 15vh;
+    }
 }
+
 @media (max-width: 320px) {
-  .Blog {
-    padding-top: 25vh;
-  }
+    .Blog {
+        padding-top: 25vh;
+    }
 }
