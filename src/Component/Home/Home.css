@@ -54,6 +54,9 @@
       font-size: 2em;
       color: black;
       text-decoration: none;
+      box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+      padding: .2em;
+      border-radius: 5px;
   }
   
   .icon-twitter:hover {
@@ -83,7 +86,7 @@
   .Home {
       height: 80vh;
       widows: 100vw;
-      background-color: white;
+      background-color: rgb(236, 235, 235);
       display: grid;
       grid-template-areas: "picture-status" "description" "social";
       grid-template-rows: 25vh 45vh 10vh;

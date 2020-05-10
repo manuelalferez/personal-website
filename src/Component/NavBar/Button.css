@@ -1,73 +1,73 @@
 .Button {
-  height: 35px;
-  width: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 3em;
-  border-radius: 5px;
-  font-size: 0.9em;
-  background: #323232;
-  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    height: 35px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3em;
+    border: 1px solid rgba(0, 0, 0, 0.0);
+    border-radius: 5px;
+    font-size: 0.9em;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+    color: rgba(49, 69, 106, 0.35);
 }
 
 .Button:hover {
-  cursor: pointer;
-  background: #999;
+    cursor: pointer;
 }
 
 .Button:active {
-  transition-duration: 0.2s;
-  transform: scale(0.9);
-  border-bottom: none;
+    transition-duration: 0.2s;
+    transform: scale(0.9);
+    border-bottom: none;
 }
 
 .Button a {
-  text-decoration: none;
-  color: white;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    text-decoration: none;
+    color: black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .Button__image {
-  height: 20px;
-  width: 20px;
-  margin-right: 0.5em;
-  text-align: center;
+    height: 20px;
+    width: 20px;
+    margin-right: 0.5em;
+    text-align: center;
 }
 
 @media (max-width: 768px) {
-  .Button {
-    font-size: 13px;
-    margin: 2em;
-  }
-  .Button__image {
-    height: 1.5em;
-    width: 1.5em;
-  }
+    .Button {
+        font-size: 13px;
+        margin: 2em;
+    }
+    .Button__image {
+        height: 1.5em;
+        width: 1.5em;
+    }
 }
 
 @media (max-width: 468px) {
-  .Button {
-    height: 40px;
-    width: 80px;
-    margin: 1em;
-  }
-  .Button a {
-    line-height: 40px;
-  }
+    .Button {
+        height: 40px;
+        width: 80px;
+        margin: 1em;
+    }
+    .Button a {
+        line-height: 40px;
+    }
 }
 
 @media (max-width: 320px) {
-  .Button {
-    height: 30px;
-    width: 70px;
-    margin: .9em;
-  }
-  .Button a {
-    line-height: 40px;
-  }
+    .Button {
+        height: 30px;
+        width: 70px;
+        margin: .9em;
+    }
+    .Button a {
+        line-height: 40px;
+    }
 }
