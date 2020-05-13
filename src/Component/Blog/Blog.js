@@ -3,7 +3,7 @@ import "./Blog.css";
 import posts from "../../data/Blog/PostsData";
 import { Link } from "react-router-dom";
 
-const CATEGORIES = ["Libros", "Reflexiones", "Informática", "Ajedrez"];
+const CATEGORIES = ["Informática", "Reflexiones", "Ajedrez"];
 
 
 function Blog(props) {
