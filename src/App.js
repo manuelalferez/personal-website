@@ -9,6 +9,8 @@ import Post from "./Component/Blog/Post";
 import GA from "./GoogleAnalytics";
 import ScrollToTop from "./Component/ScrollToTop";
 import Work from "./Component/Work/Work";
+import Resumen from "./Component/Resumen/Resumen";
+
 
 function App() {
   return (
@@ -21,6 +23,7 @@ function App() {
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/blog" component={Blog} />
             <Route exact path="/work" component={Work} />
+            <Route exact path="/resumen" component={Resumen} />
             <Route exact path="/blog/post/:id" component={Post} />
             <Route component={PageNotFound} />
           </Switch>
