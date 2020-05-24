@@ -4,14 +4,14 @@ const posts = [
     category: "Informática",
     summary: "Cuando compartimos nuestro e-mail por internet es muy importante hacerlo de manera segura. Usando una forma muy simple evitamos recibir spam y correos indeseados.",
     key: "1",
-    path: "Qué-es-[at]-y-[dot]"
+    path: "qué-es-[at]-y-[dot]"
   },
   {
     title: "Blog sobre ajedrez",
     category: "Ajedrez",
     summary: "Bienvenida y objetivos.",
     key: "2",
-    path: "Blog-sobre-ajedrez"
+    path: "blog-sobre-ajedrez"
   },
   {
     title: "manuelalferez - Aswin2910",
@@ -46,21 +46,21 @@ const posts = [
     category: "Reflexiones",
     summary: "El primer impulso cuando no tenemos mucho que hacer es hacer una actividad conocida. ¿Por qué?",
     key: "7",
-    path: "La-curiosidad-rompe-el-ciclo"  
+    path: "la-curiosidad-rompe-el-ciclo"  
   },
   {
     title: "La productividad en el aprendizaje",
     category: "Reflexiones",
     summary: "Cómo la maquetación del conocimiento de manera estética afecta a la forma que aprendemos.",
     key: "8",
-    path: "La-productividad-en-el-aprendizaje"
+    path: "la-productividad-en-el-aprendizaje"
   },
   {
     title: "Bookmarks",
     category: "Share",
     summary: "My favorites bookmarks.",
     key: "9",
-    path: "Bookmarks"
+    path: "bookmarks"
   }
 ];
 
