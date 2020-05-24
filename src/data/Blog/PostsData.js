@@ -71,7 +71,7 @@ const posts = [
   },
   {
     title: " Short term 12",
-    category: "Cultura",
+    category: "Cine",
     summary: "A 20-something supervising staff member of a residential treatment facility navigates the troubled waters of that world alongside her co-worker and longtime boyfriend.",
     key: "11",
     path: "short-term-12"
