@@ -1,5 +1,5 @@
 const categories = [
-    "Informática", "Share", "Reflexiones", "Ajedrez"
+    "Informática", "Share","Cultura", "Reflexiones", "Ajedrez"
   ];
   
   export default categories;

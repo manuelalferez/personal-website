@@ -14,6 +14,9 @@
     background-color: rgb(236, 235, 235);
     padding: 5vw;
 }
+.Image__annotation{
+    font-size: 0.7em;
+}
 
 h1,
 h2 {
@@ -99,6 +102,9 @@ code {
         width: 319px;
         height: 240px;
     }
+    .Post__image{
+        width: 300px;
+    }
 }
 
 @media (max-width: 375px) {
@@ -114,5 +120,8 @@ code {
     iframe {
         width: 240px;
         height: 180px;
+    }
+    .Post__image{
+        width: 280px;
     }
 }

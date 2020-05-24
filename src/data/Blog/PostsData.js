@@ -68,6 +68,13 @@ const posts = [
     summary: "Ejercicio de ajedrez con su resolución comentada.",
     key: "10",
     path: "resolucion-de-ejercicio-0"
+  },
+  {
+    title: " Short term 12",
+    category: "Cultura",
+    summary: "A 20-something supervising staff member of a residential treatment facility navigates the troubled waters of that world alongside her co-worker and longtime boyfriend.",
+    key: "11",
+    path: "short-term-12"
   }
 ];
 
