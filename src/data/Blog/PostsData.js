@@ -61,6 +61,13 @@ const posts = [
     summary: "My favorites bookmarks.",
     key: "9",
     path: "bookmarks"
+  },
+  {
+    title: "Resolución de ejercicio #0",
+    category: "Ajedrez",
+    summary: "Ejercicio de ajedrez con su resolución comentada.",
+    key: "10",
+    path: "resolucion-de-ejercicio-0"
   }
 ];
 
