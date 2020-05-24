@@ -46,6 +46,12 @@ const posts = [
     category: "Reflexiones",
     summary: "Cómo la maquetación del conocimiento de manera estética afecta a la forma que aprendemos.",
     key: "8"
+  },
+  {
+    title: "Bookmarks",
+    category: "Share",
+    summary: "My favorites bookmarks.",
+    key: "9"
   }
 ];
 
