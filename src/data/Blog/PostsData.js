@@ -18,7 +18,7 @@ const posts = [
     category: "Ajedrez",
     summary: "Primera partida de ajedrez comentada.",
     key: "3",
-    path: "manuelalferez-Aswin2910"
+    path: "manuelalferez-aswin2910"
   },
   {
     title: "angel39366 - manuelalferez",
