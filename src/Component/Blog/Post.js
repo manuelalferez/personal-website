@@ -13,11 +13,11 @@ class Post extends Component {
   async componentDidMount() {
     const search = this.props.location.pathname;
     if (search) {
-      const key = search.split("post/")[1];
-      const posted = require(`../../data/Blog/posts/${key}.md`);
+      const pathName = search.split("post/")[1];
+      const posted = require(`../../data/Blog/posts/${pathName}.md`);
       const data = await fetch(posted).then(res => res.text());
       this.setState({
-        id: key,
+        id: pathName,
         post: data
       });
     }
