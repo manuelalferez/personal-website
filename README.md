@@ -68,11 +68,17 @@
 
 `npm start`
 
-## TODO
+## Documentation 📄
 
-### Improve documentation
- - [x] Create `CONTRIBUTING.md` file
- - [ ] Document React components in the `README.md`
+If you are interested in knowing more about the project, read the specification of the components in [ReactComponents.md](doc/ReactComponents.md) file. 
+
+
+
+## Contributing 🧑🏻‍🤝‍🧑🏽
+
+Any suggestions or improvement in the project? See the [CONTRIBUTING.md](doc/CONTRIBUTING.md) file to see how you can contribute to the project. 
+
+
 
 ## LICENSE
 [GNU General Public License v3.0](https://github.com/manuelalferez/personal-website/blob/master/LICENSE)

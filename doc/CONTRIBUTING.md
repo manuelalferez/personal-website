@@ -6,7 +6,7 @@
 
 2. On GitHub, **navigate to the Fork** that has been generated for you.
 
-3. **Clone the project **.
+3. **Clone the project**.
 
    `` 
    git clone https://github.com/YOUR-USERNAME/stuja
