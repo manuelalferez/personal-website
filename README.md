@@ -8,8 +8,7 @@
 <div align="center">
   A website of <code>138.1 KB</code>
 </div>
-
-<br />
+<br/>
 
 <div align="center">
   <h3>
@@ -42,15 +41,15 @@
 ## Looks
 
 ### Home
-![Home](https://i.ibb.co/T0GWKrX/Captura-de-pantalla-2020-03-19-a-las-20-50-36.png)
+![Home](http://i.imgur.com/xTVmBJm.png)
 
 ### Blog
 
-![Blog](https://i.ibb.co/6JCmQcy/Captura-de-pantalla-2020-03-19-a-las-20-51-04.png)
+![Blog](http://i.imgur.com/DB79cOm.png)
 
 ### Contact
 
-![Contact](https://i.ibb.co/gWXPRPQ/Captura-de-pantalla-2020-03-19-a-las-20-50-53.png)
+![Contact](http://i.imgur.com/Sex5qe5.png)
 
 ## Installation
 1. **Clone** the project
@@ -72,7 +71,7 @@
 ## TODO
 
 ### Improve documentation
- - [ ] Create `CONTRIBUTING.md` file
+ - [x] Create `CONTRIBUTING.md` file
  - [ ] Document React components in the `README.md`
 
 ## LICENSE
