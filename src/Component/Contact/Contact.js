@@ -5,7 +5,7 @@ function Contact(props) {
   return (
     <div className="Contact">
       <form action="https://contactform.dk/manuelalferezruiz@gmail.com" className="Form">
-        <h1 className="Form__title">Send me a message 😊</h1>
+        <h1 className="Form__title">Send me a message <span role="img" aria-label="smile">😊</span></h1>
         <label htmlFor="name">Name</label>
         <input type="text" name="name" />
         <label htmlFor="email">Email <span className="Form__banner">(optional)</span></label>
