@@ -1,5 +1,5 @@
 import React from 'react';
-import ResumenPDF from "../../data/cv/resume.pdf";
+import ResumenPDF from "../../data/Resume/resume.pdf";
 
 import "./Resume.css";
 
