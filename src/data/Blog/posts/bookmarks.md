@@ -1,6 +1,6 @@
 # Bookmarks
 
-📅 May 24, 2020 *Last updated* 
+📅 Jun 15, 2020 *Last updated* 
 
 
 
@@ -19,6 +19,9 @@ Being aware that all content is not for all audiences, I have created categories
 * [Introduction to Vercel](https://vercel.com/docs)
 * What is differential privacy? [[1]](https://en.wikipedia.org/wiki/Differential_privacy) [[2]](https://manueldelgado.com/que-es-la-privacidad-diferencial/)
 * [Single-responsibility principle](https://en.wikipedia.org/wiki/Single-responsibility_principle)
+* ["C is not how the computer works" can lead to inefficient code](https://steveklabnik.com/writing/c-is-not-how-the-computer-works-can-lead-to-inefficient-code) 🆕
+* [Unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy) 🆕
+* [KISS principle](https://en.wikipedia.org/wiki/KISS_principle) 🆕
 
 
 
@@ -32,3 +35,4 @@ Being aware that all content is not for all audiences, I have created categories
 
 * Cognitive bias [[1]](https://en.wikipedia.org/wiki/Cognitive_bias) [[2]](https://www.lifehacker.com.au/2018/03/find-out-which-cognitive-biases-alter-your-perspective)
 * [Parkinson's law](https://en.wikipedia.org/wiki/Parkinson%27s_law)
+* [Dunning–Kruger effect](https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect) 🆕
