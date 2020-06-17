@@ -75,6 +75,13 @@ const posts = [
     summary: "A 20-something supervising staff member of a residential treatment facility navigates the troubled waters of that world alongside her co-worker and longtime boyfriend.",
     key: "11",
     path: "short-term-12"
+  },
+  {
+    title: "My favorite music",
+    category: "Share",
+    summary: "Some of music themes, artist and albums that I like.",
+    key: "12",
+    path: "favorite-music"
   }
 ];
 
