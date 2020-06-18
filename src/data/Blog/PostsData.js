@@ -82,6 +82,13 @@ const posts = [
     summary: "Some of music themes, artist and albums that I like.",
     key: "12",
     path: "favorite-music"
+  },
+  {
+    title: "Preguntas",
+    category: "Reflexiones",
+    summary: "Un surtido de interrogantes con los que desafiarte.",
+    key: "13",
+    path: "preguntas"
   }
 ];
 
