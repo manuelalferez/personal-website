@@ -4,7 +4,7 @@ import "./Contact.css";
 function Contact(props) {
   return (
     <div className="Contact">
-      <form action="https://contactform.dk/manuelalferezruiz@gmail.com" className="Form">
+      <form action="https://contactform.dk/manuelalferezruiz@gmail.com" className="Form" method="POST">
         <h1 className="Form__title">Send me a message <span role="img" aria-label="smile">😊</span></h1>
         <label htmlFor="name">Name</label>
         <input type="text" name="name" />
