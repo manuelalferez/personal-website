@@ -82,6 +82,35 @@ code {
     font-family: 'DM Mono', monospace;
 }
 
+table{
+    margin: 0.8em 0;
+    padding: 0;
+    word-break: initial;
+}
+
+table th {
+    background: #f2930d27;
+}
+
+table tr{
+    border-top: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 0;
+}
+
+table tr th {
+    font-weight: bold;
+    border: 1px solid #dfe2e5;
+    border-bottom: 0;
+    margin: 0;
+    padding: 6px 13px;
+}
+table tr td {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 6px 13px;
+}
+
 @media (max-width: 768px) {
     .Post {
         width: 90vw;

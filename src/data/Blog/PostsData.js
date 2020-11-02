@@ -89,6 +89,13 @@ const posts = [
     summary: "Un surtido de interrogantes con los que desafiarte.",
     key: "13",
     path: "preguntas"
+  },
+  {
+    title: "Primera acampada y con Arturo",
+    category: "Senderismo",
+    summary: "Mi experiencia tras mi primera acampada en la Sierra de Cazorla.",
+    key: "14",
+    path: "primera-acampada"
   }
 ];
 
