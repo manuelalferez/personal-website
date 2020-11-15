@@ -103,6 +103,13 @@ const posts = [
     summary: "Idea detrás de una buena escritura.",
     key: "15",
     path: "escribir-bien"
+  },
+  {
+    title: "React.js Dev Summit (GDG Jaén)",
+    category: "Informática",
+    summary: "Enlaces de interés del primer Dev Summit en GDG Jaén.",
+    key: "16",
+    path: "react-js-dev-summit-gdg-jaen"
   }
 ];
 
