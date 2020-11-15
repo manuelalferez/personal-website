@@ -96,6 +96,13 @@ const posts = [
     summary: "Mi experiencia tras mi primera acampada en la Sierra de Cazorla.",
     key: "14",
     path: "primera-acampada"
+  },
+  {
+    title: "Escribir bien",
+    category: "Reflexiones",
+    summary: "Idea detrás de una buena escritura.",
+    key: "15",
+    path: "escribir-bien"
   }
 ];
 
