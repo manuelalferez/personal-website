@@ -6,9 +6,9 @@
 
 Con motivo del GDG Dev Summit, organizadores del GDG Jaén preparamos un evento para transmitir a la comunidad conocimientos sobre: 
 
-* Talk 1: "Hablemos sobre Stadia" por Alberto "Kakoluz" Rodríguez (@kakoalb)
-* Talk 2: "Desarrollo web con React" por Manuel Alférez (@manuelalferez)
-* Talk 3: "Machine Learning con TensorFlow" por Ismael Ben Lahmar (@ismaelbg10)
+* Talk 1: "Hablemos sobre Stadia" por Alberto "Kakoluz" Rodríguez [@kakoalb](https://twitter.com/kakoalb)
+* Talk 2: "Desarrollo web con React" por Manuel Alférez [@manuelalferez](https://twitter.com/manuelalferez)
+* Talk 3: "Machine Learning con TensorFlow" por Ismael Ben Lahmar [@ismaelbg10](https://twitter.com/ismaelbg10)
 
 ## Enlaces de interés 
 
